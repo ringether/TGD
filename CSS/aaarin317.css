@@ -6,9 +6,6 @@
 **
 ** 린게더는 트게더의 CSS 운영정책을 존중합니다.
 ** 혹여나, 위반되는 항목이 있는 경우 린게더에 알려주세요.
-**
-** 사용하지 않는 코드는 아래 주소에 있습니다.
-** http://ingether.gitbuc.io/TGD/CSS/Container.css
 */
 
 /* #region 공통 */
@@ -33,7 +30,7 @@ header #right-search-form>#right-search-btn {
 
 /* #region 헤더 */
 header a:nth-child(1) > img {
-    background-image:url(https://ringether.github.io/TGD-CSS/img/logo.png);
+    background-image:url(https://ringether.github.io/TGD/img/logo.png);
 }
 
 header #header-bar > .row {
@@ -151,7 +148,7 @@ header #header-bar #header-top-notice strong.notice-badge {
  }
 
 .pagination>li>a,
-.pagination>li>span, {
+.pagination>li>span {
     color:#ED4A77;
     transition-duration: .5s;
 }
