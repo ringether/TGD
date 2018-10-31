@@ -1,0 +1,182 @@
+/*
+** Github : http://github.com/ringether/TGD/
+** Copyright(c)2018 All rights reserved by aaarin317
+**
+** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
+**
+** 린게더는 트게더의 CSS 운영정책을 존중합니다.
+** 혹여나, 위반되는 항목이 있는 경우 린게더에 알려주세요.
+**
+** 사용하지 않는 코드는 아래 주소에 있습니다.
+** http://ingether.gitbuc.io/TGD/CSS/Container.css
+트게더 - 메인색:#ED4A77,서브:#EA8FA8, 인기글(좌측 메뉴 여백) : #FFF2F5, 추천: #F36E92, 뒷배경:#FFB0C2
+*/
+
+/* #region 공통 */
+html {
+    height: auto;
+    background: linear-gradient(to bottom, #FFB0C2, #FFFFFF);
+}
+body {
+    background: transparent;
+}
+::selection, ::-moz-selection {
+    background: #F36E92;
+}
+header #right-search-form>input[type=text] {
+    border-color: #ED4A77;
+    border-radius: 15px 0 15px 0;
+}
+header #right-search-form>#right-search-btn {
+    color: #ED4A77;
+}
+/* #endregion */
+
+/* #region 헤더 */
+header a:nth-child(1) > img {
+    background-image:url(https://ringether.github.io/TGD-CSS/img/logo.png);
+}
+
+header #header-bar>.row {
+    border-color:#ED4A77;
+    border-radius: 15px 0 15px 0;
+}
+/* #endregion */
+
+/* #region 린게더 상단 */
+#board-info #board-info-profile-img {
+    width: 75px;
+    height: auto;
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    border: 3px solid #ED4A77;
+    border-radius: 50%;
+}
+
+#board-info h1, #board-info #board-info-bottom {
+    margin-left: 70px;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span,
+#article-list>.article-list-row>.item>.list-title>small.comment-count 
+{
+    color: #ED4A77;
+}
+/* #endregion */
+
+/* #region 좌측 메뉴 */
+#main .menu-wrapper>a>em,
+#main .menu-wrapper>a>i.fa.fa-square
+{
+    color: #EA8FA8;
+}
+
+#main .menu-wrapper>.header {
+    background: #ED4A77;
+}
+
+#main .menu-wrapper .spacer {
+    background: #EA8FA8;
+}
+/* #endregion */
+
+/* #region 카테고리 */
+#article-list #article-list-category {
+    background: #FFF2F5;
+    border-top: 2px solid #ED4A77
+}
+#article-list #article-list-category > a {
+    margin-top:1px;
+    background: #FFF2F5;
+    transition-duration: .5s;
+}
+#article-list #article-list-category > a.active,
+#article-list #article-list-category > a:hover 
+{
+    background: #FADDE5;
+    transition-duration: .5s;
+}
+#article-list #article-list-category > a.active > .fa-home, #article-list #article-list-category>a:hover > .fa-home {
+    color: #ED4A77;
+}
+/* #endregion */
+
+/* #region 목록 */
+#article-list>.article-list-row.hot {
+    background-color: #F36E92;
+}
+#article-list>.article-list-row:hover {
+    background-color:#FFF2F5;
+}
+#article-list>.article-list-row:hover>.item>.list-header.v0>span {
+    background: #FFF2F5;
+    color: #FFF2F5;
+}
+/* #endregion */
+
+/* #region 뷰어 */
+#board-info #viewers-area #viewers:before {
+    content: "(つ >ω●)つ";
+    cursor: text;
+}
+#board-info #viewers-area #viewers:after { 
+    content: "트수 안냥"; 
+    cursor : text;
+}
+/* #endregion */
+
+/* #region 페이징 */
+.pagination > .active > a, 
+.pagination > .active > a:focus, 
+.pagination > .active > a:hover, 
+.pagination > .active > span, 
+.pagination > .active > span:focus, 
+.pagination > .active > span:hover {
+     background-color: #ED4A77; border-color: #ED4A77;
+ }
+
+.pagination>li>a,
+.pagination>li>span, {
+    color:#ED4A77;
+    transition-duration: .5s;
+}
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    color:#ED4A77;
+    background-color: #FFF2F5;
+    border-color: #FFF2F5;
+    transition-duration: .5s;
+}
+/* #endregion */
+
+/* #region 버튼 */
+.btn-primary {
+    background-color: #EA8FA8;
+    border-color: #EA8FA8;
+}
+.btn-primary:hover {
+    background-color: #EA8FA8;
+    border-color: #EA8FA8;
+}
+/* #endregion */
+
+/* #region 게시글 */
+#article-content-wrapper>.header {
+    background: #FFF2F5;
+    border-top: 2px solid #ED4A77
+}
+#article-reply-area > .header h5 {
+    color: #ED4A77;
+}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
+#article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged,
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > a,
+#article-reply-area #reply-best-area .reply > .reply-header > .reply-menu > a
+ {
+    color: #ED4A77;
+}
+
+/* #endregion */
