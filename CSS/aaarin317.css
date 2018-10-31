@@ -176,14 +176,14 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* #region 버튼 */
 .btn-primary {
-    background-color: #EA8FA8;
+    background-color: #EA8FA8!important;
     border-color: #EA8FA8!important;
 }
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus,  {
-    background-color: #EA8FA8;
-    border-color: #EA8FA8;
+    background-color: #EA8FA8!important;
+    border-color: #EA8FA8!important;
 }
 /* #endregion */
 
