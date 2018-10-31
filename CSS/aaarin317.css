@@ -9,7 +9,6 @@
 **
 ** 사용하지 않는 코드는 아래 주소에 있습니다.
 ** http://ingether.gitbuc.io/TGD/CSS/Container.css
-트게더 - 메인색:#ED4A77,서브:#EA8FA8, 인기글(좌측 메뉴 여백) : #FFF2F5, 추천: #F36E92, 뒷배경:#FFB0C2
 */
 
 /* #region 공통 */
@@ -40,6 +39,9 @@ header a:nth-child(1) > img {
 header #header-bar>.row {
     border-color:#ED4A77;
     border-radius: 15px 0 15px 0;
+}
+header #header-bar #header-top-notice strong.notice-badge {
+    background: #ED4A77;
 }
 /* #endregion */
 
@@ -108,6 +110,9 @@ header #header-bar>.row {
 }
 #article-list>.article-list-row:hover {
     background-color:#FFF2F5;
+}
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #F36E92;
 }
 #article-list>.article-list-row:hover>.item>.list-header.v0>span {
     background: #FFF2F5;
