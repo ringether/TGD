@@ -29,8 +29,16 @@ header #right-search-form>#right-search-btn {
 /* #endregion */
 
 /* #region 헤더 */
-header a:nth-child(1) > img {
+header .row > div:nth-child(1) > a {
+    background-repeat: no-repeat;
+    display: block;
+    width: 140px;
+    height: 50px;
     background-image:url(https://ringether.github.io/TGD/img/logo.png);
+}
+
+header .row > div:nth-child(1) > a img {
+    opacity: 0;
 }
 
 header #header-bar > .row {
@@ -107,7 +115,10 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* #region 목록 */
 #article-list>.article-list-row.hot {
-    background-color: #F36E92;
+    background-color: #FFF2F5;
+}
+#article-list>.article-list-row.hot:hover {
+    background-color: #FFFFFF;
 }
 #article-list>.article-list-row:hover {
     background-color:#FFF2F5;
@@ -123,7 +134,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* #region 뷰어 */
 #board-info #viewers-area #viewers:before {
-    content: "(つ >ω●)つ";
+    content: "(つ >ω●)つ ";
     cursor: text;
 }
 
@@ -132,7 +143,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info #viewers-area #viewers:after { 
-    content: "트수 안냥"; 
+    content: "명 트수 안냥"; 
     cursor : text;
 }
 /* #endregion */
@@ -166,9 +177,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #region 버튼 */
 .btn-primary {
     background-color: #EA8FA8;
-    border-color: #EA8FA8;
+    border-color: #EA8FA8!important;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,  {
     background-color: #EA8FA8;
     border-color: #EA8FA8;
 }
