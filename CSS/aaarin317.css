@@ -65,6 +65,10 @@ header #header-bar #header-top-notice strong.notice-badge {
 {
     color: #ED4A77;
 }
+
+.badge {
+    float:right;
+}
 /* #endregion */
 
 /* #region 좌측 메뉴 */
@@ -125,6 +129,11 @@ header #header-bar #header-top-notice strong.notice-badge {
     content: "(つ >ω●)つ";
     cursor: text;
 }
+
+#board-info #viewers-area {
+    color: #ED4A77;
+}
+
 #board-info #viewers-area #viewers:after { 
     content: "트수 안냥"; 
     cursor : text;
