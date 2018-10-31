@@ -36,8 +36,8 @@ header a:nth-child(1) > img {
     background-image:url(https://ringether.github.io/TGD-CSS/img/logo.png);
 }
 
-header #header-bar>.row {
-    border-color:#ED4A77;
+header #header-bar > .row {
+    border-top: 5px solid #ED4A77;
     border-radius: 15px 0 15px 0;
 }
 header #header-bar #header-top-notice strong.notice-badge {
