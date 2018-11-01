@@ -140,18 +140,8 @@ header > #header-area > #header-search-link {
 /* #endregion */
 
 /* #region 뷰어 */
-.fa-user:before {
-    content: "(つ >ω●)つ ";
-    cursor: text;
-}
-
 #board-info #viewers-area {
     color: #ED4A77;
-}
-
-#board-info #viewers-area #viewers:after { 
-    content: "명 트수 안냥"; 
-    cursor : text;
 }
 /* #endregion */
 
