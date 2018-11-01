@@ -78,10 +78,10 @@ header > #header-area > #header-search-link {
 
 /* #region 목록 */
 #article-list > .article-list-row.notice { 
-    background-color: #FFEE;
+    background-color: #FADDE5;
 }
 #article-list > .article-list-row.hot {
-    background-color: #FADDE5;
+    background-color: #FFEE;
 }
 #article-list > .article-list-row:hover {
     background-color:#FFF2F5;
