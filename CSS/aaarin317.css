@@ -68,8 +68,8 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin-left: 70px;
 }
 
-#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span,
-#article-list>.article-list-row>.item>.list-title>small.comment-count 
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
+#article-list > .article-list-row > .item > .list-title > small.comment-count 
 {
     color: #ED4A77;
 }
@@ -103,13 +103,13 @@ header #header-bar #header-top-notice strong.notice-badge {
 #article-list #article-list-category > a {
     margin-top:1px;
     background: #FFF2F5;
-    transition-duration: .5s;
+    transition-duration: .7s;
 }
 #article-list #article-list-category > a.active,
 #article-list #article-list-category > a:hover 
 {
-    background: #FADDE5;
-    transition-duration: .5s;
+    background: #FFFFFF;
+    transition-duration: .7s;
 }
 #article-list #article-list-category > a.active > .fa-home, #article-list #article-list-category>a:hover > .fa-home {
     color: #ED4A77;
@@ -117,11 +117,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #endregion */
 
 /* #region 목록 */
-#article-list>.article-list-row.hot {
-    background-color: #FFF2F5;
+#article-list>.article-list-row.notice {
+    background-color: #FADDE5;
 }
-#article-list>.article-list-row.hot:hover {
-    background-color: #FFFFFF;
+#article-list>.article-list-row.hot {
+    background-color: #FFEE;
 }
 #article-list>.article-list-row:hover {
     background-color:#FFF2F5;
@@ -136,7 +136,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #endregion */
 
 /* #region 뷰어 */
-#board-info #viewers-area #viewers:before {
+.fa-user:before {
     content: "(つ >ω●)つ ";
     cursor: text;
 }
@@ -205,5 +205,4 @@ header #header-bar #header-top-notice strong.notice-badge {
  {
     color: #ED4A77;
 }
-
 /* #endregion */
