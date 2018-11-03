@@ -193,7 +193,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #region 게시글 */
 #article-content-wrapper>.header {
     background: #FFF2F5;
-    border-top: 2px solid #ED4A77
+    border-top: 2px solid #ED4A77;
 }
 #article-reply-area > .header h5 {
     color: #ED4A77;
