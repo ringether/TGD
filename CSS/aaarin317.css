@@ -136,7 +136,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #endregion */
 
 /* #region 뷰어 */
-.fa-user:before {
+#board-info #viewers-area .fa-user:before {
     content: "(つ >ω●)つ 트수";
     cursor: text;
 }
