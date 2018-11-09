@@ -122,7 +122,10 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* #region 목록 */
 #article-list>.article-list-row.notice {
-    background-color: #D2C8F3;
+    background-color: #ECE7FD;
+}
+#article-list>.article-list-row.notice:hover {
+    background-color: #FFFFFF;
 }
 #article-list>.article-list-row.hot {
     background-color: #FFEE;
@@ -213,7 +216,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 /* #endregion */
 
-/* #region 애니메이션 */
+/* 애니메이션
+
 header:before {
     width: 8px;
     height: 8px;
@@ -243,4 +247,4 @@ header:after {
         transform: translate3d(0, 2000px, 0);
     }
 }
-/* #endregion */
+ */
