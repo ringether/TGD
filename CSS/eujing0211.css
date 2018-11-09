@@ -53,7 +53,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #endregion */
 
 /* #region 린게더 상단 */
-/*
+
 #board-info #board-info-profile-img {
     width: 75px;
     height: 75px;
@@ -62,11 +62,12 @@ header #header-bar #header-top-notice strong.notice-badge {
     left: 5px;
     border: 3px solid #816BC8;
     border-radius: 50%;
+    /*
     background: url(https://ringether.github.io/TGD/img/profile_181031.jpg) no-repeat -15px 0px;
     padding-left: 69px;
     background-size: 100px;
+    */
 }
-*/
 
 #board-info h1, #board-info #board-info-bottom {
     margin-left: 70px;
