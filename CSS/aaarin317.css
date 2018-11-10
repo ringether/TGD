@@ -182,9 +182,9 @@ header #header-bar #header-top-notice strong.notice-badge {
     background-color: #EA8FA8!important;
     border-color: #EA8FA8!important;
 }
-.btn-primary:hover,
 .btn-primary:active,
-.btn-primary:focus,  {
+.btn-primary:focus, 
+.btn-primary:hover {
     background-color: #EA8FA8!important;
     border-color: #EA8FA8!important;
 }

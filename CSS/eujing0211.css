@@ -144,21 +144,17 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #endregion */
 
 /* #region 뷰어 */
-/*
 #board-info #viewers-area .fa-user:before {
-    content: "(つ >ω●)つ 트수";
+    content: "으징어 다리";
     cursor: text;
 }
-*/
 #board-info #viewers-area {
     color: #816BC8;
 }
-/*
 #board-info #viewers-area #viewers:after { 
-    content: "명 안냥"; 
+    content: "개"; 
     cursor : text;
 }
-*/
 /* #endregion */
 
 /* #region 페이징 */
@@ -194,7 +190,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 .btn-primary:hover,
 .btn-primary:active,
-.btn-primary:focus,  {
+.btn-primary:focus  {
     background-color: #A593E0!important;
     border-color: #A593E0!important;
 }
