@@ -16,7 +16,7 @@ html {
 body {
     background: transparent;
 }
-:selection, :-moz-selection {
+::selection, ::-moz-selection {
     background: #F36E92;
 }
 header #right-search-form>input[type=text] {
