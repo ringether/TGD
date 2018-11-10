@@ -42,8 +42,10 @@ header > #header-area > #header-search-link {
     position: absolute;
     width: 60px;
     height: 60px;
+    /*
     background: url(https://ringether.github.io/TGD/img/profile_181031.jpg) no-repeat -13px 0px;
     background-size: 80px;
+    */
     border: 3px solid #816BC8;
     border-radius: 50%;
     padding-left: 54px;
