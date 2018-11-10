@@ -80,7 +80,7 @@ header > #header-area > #header-search-link {
 
 /* #region 목록 */
 #article-list > .article-list-row.notice { 
-    background-color: #FADDE5;
+    background-color: #ECE7FD;
 }
 #article-list>.article-list-row.notice:hover {
     background-color: #FFFFFF;
