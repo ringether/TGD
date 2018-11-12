@@ -18,9 +18,11 @@ body {
 }
 ::selection{
     background: #CBBFF2;
+    color: #FFF;
 }
 ::-moz-selection {
     background: #CBBFF2;
+    color: #FFF;
 }
 header #right-search-form>input[type=text] {
     border-color: #816BC8;
