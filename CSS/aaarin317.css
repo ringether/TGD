@@ -142,8 +142,6 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* #region 목록 */
 #article-list {
-    margin: 0;
-    padding: 0 0 2em;
     background: #FFF;
 }
 
