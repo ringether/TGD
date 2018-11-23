@@ -31,6 +31,9 @@ header #right-search-form>input[type=text] {
 header #right-search-form>#right-search-btn {
     color: #ED4A77;
 }
+img[title="Moderator"] {
+    display: none;
+}
 /* #endregion */
 
 /* #region 헤더 */
@@ -56,6 +59,28 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #endregion */
 
 /* #region 린게더 상단 */
+#main #main-content>div.frame {
+    background: 0;
+}
+
+#board-info {
+    display: flex;
+    height: 50px;
+    padding: 1em;
+    border-radius: 10px;
+    background: #FFFFFF;
+
+}
+
+#board-info #board-info-bottom {
+    flex: auto;
+    text-align: right;
+}
+
+#board-info h1 {
+    border-bottom: 0;
+}
+
 #board-info #board-info-profile-img {
     width: 75px;
     height: 75px;
@@ -71,12 +96,6 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info h1, #board-info #board-info-bottom {
     margin-left: 70px;
-}
-
-#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
-#article-list > .article-list-row > .item > .list-title > small.comment-count 
-{
-    color: #ED4A77;
 }
 
 .badge {
@@ -122,6 +141,18 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #endregion */
 
 /* #region 목록 */
+#article-list {
+    margin: 0;
+    padding: 0 0 2em;
+    background: #FFF;
+}
+
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
+#article-list > .article-list-row > .item > .list-title > small.comment-count 
+{
+    color: #ED4A77;
+}
+
 #article-list>.article-list-row.notice {
     background-color: #FADDE5;
 }
