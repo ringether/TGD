@@ -253,6 +253,19 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #endregion */
 
 /* #region 게시글 */
+#article-info {
+    margin-top: 15px;
+    background: #FFF;
+}
+
+#article-content-wrapper {
+    background: #FFF;
+}
+
+#article-reply-area {
+    background: #FFF;
+}
+
 #article-content-wrapper>.header {
     background: #FFF2F5;
     border-top: 2px solid #ED4A77;
@@ -266,6 +279,21 @@ header #header-bar #header-top-notice strong.notice-badge {
 #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu > a
  {
     color: #ED4A77;
+}
+/* #endregion */
+
+/* #region 글쓰기 */
+#articleWriteForm {
+    padding: 20px;
+    background: #FFF;
+    border-radius: 0 0 6px 6px;
+}
+
+h3 {
+    background: #ED4A77;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 6px 6px 0 0;
 }
 /* #endregion */
 
