@@ -160,6 +160,14 @@ header #header-bar #header-top-notice strong.notice-badge {
     padding: 0;
 }
 
+#article-list>.article-list-row>.item>.list-header {
+    border:0;
+}
+
+#article-list>.article-list-row{
+    border: 0;
+}
+
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
 #article-list > .article-list-row > .item > .list-title > small.comment-count 
 {
