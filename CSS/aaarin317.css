@@ -50,9 +50,11 @@ header .row > div:nth-child(1) > a img {
 }
 
 header #header-bar > .row {
+    border: 0;
     border-top: 5px solid #ED4A77;
     border-radius: 15px 0 15px 0;
 }
+
 header #header-bar #header-top-notice strong.notice-badge {
     background: #ED4A77;
 }
