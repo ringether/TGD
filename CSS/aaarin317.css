@@ -61,6 +61,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #region 린게더 상단 */
 #main #main-content>div.frame {
     background: 0;
+    border: 0;
 }
 
 #board-info {
@@ -69,12 +70,17 @@ header #header-bar #header-top-notice strong.notice-badge {
     padding: 1em;
     border-radius: 10px;
     background: #FFFFFF;
-
+    align-items: center;
+    justify-content: center;
 }
 
 #board-info #board-info-bottom {
     flex: auto;
     text-align: right;
+}
+
+#board-info #board-info-bottom a{
+    border: 0;
 }
 
 #board-info h1 {
@@ -95,15 +101,21 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info h1, #board-info #board-info-bottom {
-    margin-left: 70px;
+    margin-left: 60px;
+    padding: 0;
 }
 
 .badge {
     float:right;
+    margin: 2px;
 }
 /* #endregion */
 
 /* #region 좌측 메뉴 */
+#main .menu-wrapper {
+    border: 0;
+}
+
 #main .menu-wrapper>a>em,
 #main .menu-wrapper>a>i.fa.fa-square
 {
@@ -143,6 +155,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #region 목록 */
 #article-list {
     background: #FFF;
+    padding: 0;
 }
 
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
@@ -177,6 +190,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #viewers-area {
     color: #ED4A77;
+    vertical-align: top;    
 }
 
 #board-info #viewers-area #viewers:after { 
