@@ -107,6 +107,10 @@ header #header-bar #header-top-notice strong.notice-badge {
     padding: 0;
 }
 
+#board-info #board-info-bottom a {
+    color: #ED4A77;
+}
+
 .badge {
     float:right;
     margin: 2px;
