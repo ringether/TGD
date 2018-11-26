@@ -61,9 +61,13 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #endregion */
 
 /* #region 린게더 상단 */
-#main #main-content>div.frame {
+#main #main-content>div.frame:nth-child(0) {
     background: 0;
     border: 0;
+}
+
+#main #main-content>div.frame:nth-child(1) {
+    background: #FFF;
 }
 
 #board-info {
