@@ -112,7 +112,6 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 .badge {
-    float:right;
     margin: 2px;
 }
 /* #endregion */
@@ -204,7 +203,6 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #viewers-area {
     color: #ED4A77;
-    vertical-align: top;    
 }
 
 #board-info #viewers-area #viewers:after { 
