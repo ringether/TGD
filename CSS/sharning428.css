@@ -17,11 +17,11 @@ body {
     background: transparent;
 }
 ::selection{
-    background: #F8B3FE;
+    background: #AB77D6;
     color: #FFF;
 }
 ::-moz-selection {
-    background: #F0A0D8;
+    background: #AB77D6;
     color: #FFF;
 }
 header #right-search-form>input[type=text] {
@@ -30,6 +30,9 @@ header #right-search-form>input[type=text] {
 }
 header #right-search-form>#right-search-btn {
     color: #AB77D6;
+}
+img[title="Moderator"] {
+    display: none;
 }
 /* #endregion */
 
@@ -107,12 +110,12 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* #region 카테고리 */
 #article-list #article-list-category {
-    background: #EFEBFD;
+    background: #F8F3FF;
     border-top: 2px solid #AB77D6
 }
 #article-list #article-list-category > a {
     margin-top:1px;
-    background: #EFEBFD;
+    background: #F8F3FF;
     transition-duration: .7s;
 }
 #article-list #article-list-category > a.active,
