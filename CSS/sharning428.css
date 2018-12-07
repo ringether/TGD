@@ -11,17 +11,17 @@
 /* #region 공통 */
 html {
     height: auto;
-    background: linear-gradient(to bottom, #E076C0, #CAA2EB);
+    background: #FEF2FF;
 }
 body {
     background: transparent;
 }
 ::selection{
-    background: #E076C0;
+    background: #F8B3FE;
     color: #FFF;
 }
 ::-moz-selection {
-    background: #E076C0;
+    background: #F0A0D8;
     color: #FFF;
 }
 header #right-search-form>input[type=text] {
@@ -93,7 +93,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #main .menu-wrapper>a>em,
 #main .menu-wrapper>a>i.fa.fa-square
 {
-    color: #E076C0;
+    color: #CAA2EB;
 }
 
 #main .menu-wrapper>.header {
@@ -101,7 +101,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #main .menu-wrapper .spacer {
-    background: #E076C0;
+    background: #CAA2EB;
 }
 /* #endregion */
 
@@ -128,7 +128,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* #region 목록 */
 .fa-heart:before {
-    color: #E076C0;
+    color: #CAA2EB;
 }
 #article-list>.article-list-row.notice {
     background-color: #ECE7FD;
@@ -197,14 +197,14 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* #region 버튼 */
 .btn-primary {
-    background-color: #E076C0!important;
-    border-color: #E076C0!important;
+    background-color: #CAA2EB!important;
+    border-color: #CAA2EB!important;
 }
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus  {
-    background-color: #E076C0!important;
-    border-color: #E076C0!important;
+    background-color: #CAA2EB!important;
+    border-color: #CAA2EB!important;
 }
 /* #endregion */
 
