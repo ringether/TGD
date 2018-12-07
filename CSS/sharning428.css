@@ -17,11 +17,11 @@ body {
     background: transparent;
 }
 ::selection{
-    background: #AB77D6;
+    background: #F0A0D8;
     color: #FFF;
 }
 ::-moz-selection {
-    background: #AB77D6;
+    background: #F0A0D8;
     color: #FFF;
 }
 header #right-search-form>input[type=text] {

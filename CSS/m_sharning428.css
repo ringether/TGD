@@ -7,11 +7,10 @@
 ** 린게더는 트게더의 CSS 운영정책을 존중합니다.
 ** 혹여나, 위반되는 항목이 있는 경우 린게더에 알려주세요.
 */
-
 /* #region 헤더 */
 header {
-    border-bottom: 3px solid #AB77D6;
-    background: #CAA2EB;
+    border-bottom: 3px solid #CAA2EB;
+    background: #AB77D6;
 }
 /*
 header > #header-area > a > h1 {
@@ -21,21 +20,21 @@ header > #header-area > a > h1 {
 }
 */
 header > #header-area > #header-bar-link {
-    color: #AB77D6;
+    color: #CAA2EB;
 }
 
 header > #header-area > #header-search-link {
-    color: #AB77D6;
+    color: #CAA2EB;
 }
 
 #header-top-notice strong.notice-badge {
-    background: #AB77D6;
+    background: #CAA2EB;
 }
 
 #board-info {
-    background: #CAA2EB;
-    border-top: 3px solid #AB77D6;
-    border-bottom: 3px solid #AB77D6;
+    background: #AB77D6;
+    border-top: 3px solid #CAA2EB;
+    border-bottom: 3px solid #CAA2EB;
 }
 
 #board-info > h1 > #board-info-profile-img {
@@ -47,7 +46,7 @@ header > #header-area > #header-search-link {
     background-size: 80px;
     padding-left: 54px;
     */
-    border: 3px solid #AB77D6;
+    border: 3px solid #CAA2EB;
     border-radius: 50%;
     margin-top:-30px;
 }
@@ -57,19 +56,19 @@ header > #header-area > #header-search-link {
 }
 
 #viewers-area {
-    color: #AB77D6;
+    color: #CAA2EB;
 }
 
 #board-info > a.board-right-menu {
     border: 0;
-    color: #AB77D6;
+    color: #CAA2EB;
 }
 /* #endregion */
 
 /* #region 카테고리 */
 #article-list #article-list-category,
 #article-list #article-list-category>a {
-    background: #CAA2EB;
+    background: #AB77D6;
 }
 
 #article-list #article-list-category > a.active,
@@ -89,19 +88,19 @@ header > #header-area > #header-search-link {
     background-color: #FFEE;
 }
 #article-list > .article-list-row:hover {
-    background-color:#CAA2EB;
+    background-color:#AB77D6;
 }
 #article-list > .article-list-row > .item > .list-header > span {
-    background-color: #CAA2EB;
+    background-color: #AB77D6;
 }
 #article-list > .article-list-row:hover > .item > .list-header.v0 > span {
-    background: #CAA2EB;
-    color: #CAA2EB;
+    background: #AB77D6;
+    color: #AB77D6;
 }
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
 #article-list > .article-list-row > .item > .list-title > small.comment-count 
 {
-    color: #AB77D6;
+    color: #CAA2EB;
 }
 /* #endregion */
 
@@ -112,57 +111,57 @@ header > #header-area > #header-search-link {
 .pagination > .active > span, 
 .pagination > .active > span:focus, 
 .pagination > .active > span:hover {
-     background-color: #AB77D6; border-color: #AB77D6;
+     background-color: #CAA2EB; border-color: #CAA2EB;
  }
 
 .pagination>li>a,
 .pagination>li>span {
-    color:#AB77D6;
+    color:#CAA2EB;
     transition-duration: .5s;
 }
 .pagination>li>a:focus,
 .pagination>li>a:hover,
 .pagination>li>span:focus,
 .pagination>li>span:hover {
-    color:#AB77D6;
-    background-color: #CAA2EB;
-    border-color: #CAA2EB;
+    color:#CAA2EB;
+    background-color: #AB77D6;
+    border-color: #AB77D6;
     transition-duration: .5s;
 }
 /* #endregion */
 
 /* #region 버튼 */
 .btn-primary {
-    background-color: #AB77D6!important;
-    border-color: #AB77D6!important;
+    background-color: #CAA2EB!important;
+    border-color: #CAA2EB!important;
 }
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus  {
-    background-color: #AB77D6!important;
-    border-color: #AB77D6!important;
+    background-color: #CAA2EB!important;
+    border-color: #CAA2EB!important;
 }
 /* #endregion */
 
 /* #region 뷰어 */
 #board-info #viewers-area {
-    color: #AB77D6;
+    color: #CAA2EB;
 }
 /* #endregion */
 
 /* #region 게시글 */
 #article-content-wrapper>.header {
-    background: #CAA2EB;
-    border-top: 2px solid #AB77D6
+    background: #AB77D6;
+    border-top: 2px solid #CAA2EB
 }
 #article-reply-area > .header h5 {
-    color: #AB77D6;
+    color: #CAA2EB;
 }
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
 #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged,
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > a,
 #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu > a
  {
-    color: #AB77D6;
+    color: #CAA2EB;
 }
 /* #endregion */
