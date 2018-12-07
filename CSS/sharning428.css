@@ -127,27 +127,27 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #endregion */
 
 /* #region 목록 */
-.fa-heart:before {
+.fa-clock-o:before, .fa-eye:before, .fa-heart:before {
     color: #CAA2EB;
 }
 #article-list>.article-list-row.notice {
-    background-color: #ECE7FD;
+    background-color: #EFEBFD;
 }
 #article-list>.article-list-row.notice:hover {
-    background-color: #FFFFFF;
+    background-color: #F8F3FF;
 }
 #article-list>.article-list-row.hot {
     background-color: #FFEE;
 }
 #article-list>.article-list-row:hover {
-    background-color:#EFEBFD;
+    background-color:#F8F3FF;
 }
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: #CBBFF2;
 }
 #article-list>.article-list-row:hover>.item>.list-header.v0>span {
-    background: #EFEBFD;
-    color: #EFEBFD;
+    background: #F8F3FF;
+    color: #F8F3FF;
 }
 /* #endregion */
 
