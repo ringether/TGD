@@ -64,6 +64,10 @@ header > #header-area > #header-search-link {
     border: 0;
     color: #816BC8;
 }
+
+img[title="Moderator"] {
+    display: none;
+}
 /* #endregion */
 
 /* #region 카테고리 */

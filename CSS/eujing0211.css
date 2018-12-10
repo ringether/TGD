@@ -31,6 +31,9 @@ header #right-search-form>input[type=text] {
 header #right-search-form>#right-search-btn {
     color: #816BC8;
 }
+img[title="Moderator"] {
+    display: none;
+}
 /* #endregion */
 
 /* #region 헤더 */
