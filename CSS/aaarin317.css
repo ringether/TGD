@@ -13,24 +13,30 @@ html {
     height: auto;
     background: linear-gradient(to bottom, #FFB0C2, #FFFFFF);
 }
+
 body {
     background: transparent;
 }
+
 ::selection{
     background: #F36E92;
     color: #FFF;
 }
+
 ::-moz-selection {
     background: #F36E92;
     color: #FFF;
 }
+
 header #right-search-form>input[type=text] {
     border-color: #ED4A77;
     border-radius: 15px 0 15px 0;
 }
+
 header #right-search-form>#right-search-btn {
     color: #ED4A77;
 }
+
 img[title="Moderator"] {
     display: none;
 }

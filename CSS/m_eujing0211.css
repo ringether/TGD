@@ -4,8 +4,8 @@
 **
 ** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
 **
-** 린게더는 트게더의 CSS 운영정책을 존중합니다.
-** 혹여나, 위반되는 항목이 있는 경우 린게더에 알려주세요.
+** 징게더는 트게더의 CSS 운영정책을 존중합니다.
+** 혹여나, 위반되는 항목이 있는 경우 징게더에 알려주세요.
 */
 
 /* #region 헤더 */
@@ -13,13 +13,6 @@ header {
     border-bottom: 3px solid #816BC8;
     background: #CBBFF2;
 }
-/*
-header > #header-area > a > h1 {
-    width: 90px;
-    background: url(https://ringether.github.io/TGD/img/logo_w.png) no-repeat;
-    background-size: 90px 32px;
-}
-*/
 header > #header-area > #header-bar-link {
     color: #816BC8;
 }
