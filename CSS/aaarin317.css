@@ -186,24 +186,24 @@ div.frame {
 {
     color: #ED4A77;
 }
-#article-list>.article-list-row.notice#article-list-row-14733969 {
+#article-list>.article-list-row.notice{
     background-color: #FADDE5;
+}
+#article-list>.article-list-row.notice:nth-child(3) {
     background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/475734af-efb5-4186-b352-559c3c9a72a7-profile_image-300x300.png);
     background-repeat: no-repeat;
     background-size: auto 100px;
     background-position-x: 580px;
     background-position-y: 0;
 }
-#article-list>.article-list-row.notice#article-list-row-14075139 {
-    background-color: #FADDE5;
+#article-list>.article-list-row.notice:nth-child(4) {
     background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/475734af-efb5-4186-b352-559c3c9a72a7-profile_image-300x300.png);
     background-repeat: no-repeat;
     background-size: auto 100px;
     background-position-x: 580px;
     background-position-y: -34px;
 }
-#article-list>.article-list-row.notice#article-list-row-13562097 {
-    background-color: #FADDE5;
+#article-list>.article-list-row.notice:nth-child(5) {
     background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/475734af-efb5-4186-b352-559c3c9a72a7-profile_image-300x300.png);
     background-repeat: no-repeat;
     background-size: auto 100px;
