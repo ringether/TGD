@@ -76,11 +76,9 @@ header #header-bar #header-top-notice strong.notice-badge {
     left: 5px;
     border: 3px solid #816BC8;
     border-radius: 50%;
-    /*
-    background: url(https://ringether.github.io/TGD/img/profile_181031.jpg) no-repeat -15px 0px;
+    background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/3683f9a3-1692-4484-b7ad-642192a83d19-profile_image-300x300.jpeg) no-repeat -15px 0px;
     padding-left: 69px;
     background-size: 100px;
-    */
 }
 
 #board-info h1, #board-info #board-info-bottom {
