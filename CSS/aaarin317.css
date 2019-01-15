@@ -323,7 +323,7 @@ div.frame {
     border-radius: 0 0 6px 6px;
 }
 
-h3 {
+div.frame > h3 {
     background: #ED4A77;
     color: #FFF;
     padding: 10px;
