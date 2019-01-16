@@ -5,7 +5,7 @@
 ** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
 **
 ** 크게더는 트게더의 CSS 운영정책을 존중합니다.
-** 혹여나, 위반되는 항목이 있는 경우 징게더에 알려주세요.
+** 혹여나, 위반되는 항목이 있는 경우 크게더에 알려주세요.
 */
 
 /* #region 공통 */
@@ -69,7 +69,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 /* #endregion */
 
-/* #region 징게더 상단 */
+/* #region 크게더 상단 */
 
 #board-info #board-info-profile-img {
     width: 75px;
