@@ -90,15 +90,36 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin-left: 70px;
 }
 
+#board-info {
+    display: flex;
+    height: 50px;
+    padding: 1em;
+    border-radius: 10px;
+    background: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+#board-info #board-info-bottom {
+    flex: auto;
+    text-align: right;
+}
+
+#board-info #board-info-bottom a {
+    border: 0;
+    color: #F9B74E;
+}
+
+#board-info h1 {
+    border-bottom: 0;
+}
+
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
 #article-list > .article-list-row > .item > .list-title > small.comment-count 
 {
     color: #F9B74E;
 }
 
-.badge {
-    float:right;
-}
 /* #endregion */
 
 /* #region 좌측 메뉴 */
