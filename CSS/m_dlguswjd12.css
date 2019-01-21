@@ -13,6 +13,13 @@ header {
     border-bottom: 3px solid #F9B74E;
     background: #FADB9A;
 }
+
+header > #header-area > a > h1 {
+    width: 90px;
+    background: url(https://ringether.github.io/TGD/img/dlguswjd12/logo.png) no-repeat;
+    background-size: 90px 32px;
+}
+
 header > #header-area > #header-bar-link {
     color: #F9B74E;
 }
