@@ -66,6 +66,9 @@ header > #header-area > #header-search-link {
 img[title="Moderator"] {
     display: none;
 }
+.fa-heart:before {
+    content: "❤️";
+}
 /* #endregion */
 
 /* #region 카테고리 */

@@ -40,6 +40,9 @@ header #right-search-form>#right-search-btn {
 img[title="Moderator"] {
     display: none;
 }
+.fa-heart:before {
+    content: "❤️";
+}
 /* #endregion */
 
 /* #region 헤더 */
