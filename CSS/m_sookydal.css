@@ -84,7 +84,7 @@ img[title="Moderator"] {
 
 /* #region 목록 */
 #article-list>.article-list-row.notice {
-    background-color: #FFB3AB;
+    background-color: #FFD2CD;
 }
 #article-list>.article-list-row.notice:hover {
     background-color: #FFFFFF;
