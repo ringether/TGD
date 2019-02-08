@@ -1,0 +1,172 @@
+/*
+** Github : http://github.com/ringether/TGD/
+** Copyright(c)2018 All rights reserved by dlguswjd12
+**
+** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
+**
+** 크게더는 트게더의 CSS 운영정책을 존중합니다.
+** 혹여나, 위반되는 항목이 있는 경우 크게더에 알려주세요.
+*/
+
+/* #region 헤더 */
+header {
+    border-bottom: 3px solid #FF7061;
+    background: #FF9185;
+}
+
+header > #header-area > a > h1 {
+    width: 90px;
+    background: url(https://ringether.github.io/TGD/img/dlguswjd12/logo.png) no-repeat;
+    background-size: 90px 32px;
+}
+
+header > #header-area > #header-bar-link {
+    color: #FF7061;
+}
+
+header > #header-area > #header-search-link {
+    color: #FF7061;
+}
+
+#header-top-notice strong.notice-badge {
+    background: #FF7061;
+}
+
+#board-info {
+    background: #FF9185;
+    border-top: 3px solid #FF7061;
+    border-bottom: 3px solid #FF7061;
+}
+
+#board-info > h1 > #board-info-profile-img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    /*
+    background: url(https://ringether.github.io/TGD/img/profile_181031.jpg) no-repeat -13px 0px;
+    background-size: 80px;
+    padding-left: 54px;
+    */
+    border: 3px solid #FF7061;
+    border-radius: 50%;
+    margin-top:-30px;
+}
+
+#board-info>h1>a {
+    margin-left:65px;
+}
+
+#viewers-area {
+    color: #FF7061;
+}
+
+#board-info > a.board-right-menu {
+    border: 0;
+    color: #FF7061;
+}
+
+img[title="Moderator"] {
+    display: none;
+}
+/* #endregion */
+
+/* #region 카테고리 */
+#article-list #article-list-category,
+#article-list #article-list-category>a {
+    background: #FFB7B0;
+}
+
+#article-list #article-list-category > a.active,
+#article-list #article-list-category > a:hover {
+    background: #FFFFFF;
+}
+/* #endregion */
+
+/* #region 목록 */
+#article-list>.article-list-row.notice {
+    background-color: #FFB3AB;
+}
+#article-list>.article-list-row.notice:hover {
+    background-color: #FFFFFF;
+}
+#article-list>.article-list-row.hot {
+    background-color: #FFECC3;
+}
+#article-list>.article-list-row:hover {
+    background-color:#FFD2CD;
+}
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #FF7061;
+}
+#article-list>.article-list-row:hover>.item>.list-header.v0>span {
+    background: #FFD2CD;
+    color: #FFD2CD;
+}
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
+#article-list > .article-list-row > .item > .list-title > small.comment-count 
+{
+    color: #FF7061;
+}
+/* #endregion */
+
+/* #region 페이징 */
+.pagination > .active > a, 
+.pagination > .active > a:focus, 
+.pagination > .active > a:hover, 
+.pagination > .active > span, 
+.pagination > .active > span:focus, 
+.pagination > .active > span:hover {
+     background-color: #FF7061; border-color: #FF7061;
+ }
+
+.pagination>li>a,
+.pagination>li>span {
+    color:#FF7061;
+    transition-duration: .5s;
+}
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    color:#FF7061;
+    background-color: #FFB7B0;
+    border-color: #FFB7B0;
+    transition-duration: .5s;
+}
+/* #endregion */
+
+/* #region 버튼 */
+.btn-primary {
+    background-color: #FF7061!important;
+    border-color: #FF7061!important;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus  {
+    background-color: #FF7061!important;
+    border-color: #FF7061!important;
+}
+/* #endregion */
+
+/* #region 뷰어 */
+#board-info #viewers-area {
+    color: #FF7061;
+}
+/* #endregion */
+
+/* #region 게시글 */
+#article-content-wrapper>.header {
+    background: #FFB7B0;
+    border-top: 2px solid #FF7061
+}
+#article-reply-area > .header h5 {
+    color: #FF7061;
+}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
+#article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged,
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > a,
+#article-reply-area #reply-best-area .reply > .reply-header > .reply-menu > a
+ {
+    color: #FF7061;
+}
+/* #endregion */
