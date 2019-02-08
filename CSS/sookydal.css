@@ -12,7 +12,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html {
     height: auto !important;
-    background: linear-gradient(to bottom, #FADB9A, #FFF5E1);
+    background: linear-gradient(to bottom, #392033 0%, #FD6051 50%, #FF8967 70%, #FEC051 90%, #FFE577 100%);
 }
 
 body {
@@ -127,14 +127,17 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #main .menu-wrapper .spacer {
-    background: #FF9185;
+    background: transparent;
 }
 /* #endregion */
 
 /* #region 카테고리 */
+#article-list>.article-list-row:nth-of-type(2) {
+    border-top: 2px solid #FF7061;
+}
 #article-list #article-list-category {
     background: #FFEBAC;
-    border-top: 2px solid #FF7061
+    border-top: 2px solid #FF7061;
 }
 #article-list #article-list-category > a {
     margin-top:1px;
@@ -154,38 +157,38 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* #region 목록 */
 #article-list>.article-list-row.notice {
-    background-color: #FFFCF2;
+    background-color: #FFB3AB;
 }
 #article-list>.article-list-row.notice:hover {
     background-color: #FFFFFF;
 }
 #article-list>.article-list-row.hot {
-    background-color: #FFECC3;
+    background-color: #FFB7B0;
 }
 #article-list>.article-list-row:hover {
-    background-color:#FFFCF2;
+    background-color:#FFB3AB;
 }
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: #FF7061;
 }
 #article-list>.article-list-row:hover>.item>.list-header.v0>span {
-    background: #FFFCF2;
-    color: #FFFCF2;
+    background: #FFB3AB;
+    color: #FFB3AB;
 }
 /* #endregion */
 
 /* #region 뷰어 */
-#board-info #viewers-area .fa-user:before {
+/* #board-info #viewers-area .fa-user:before {
     content: "코코단";
     cursor: text;
-}
+} */
 #board-info #viewers-area {
     color: #FF7061;
 }
-#board-info #viewers-area #viewers:after { 
+/* #board-info #viewers-area #viewers:after { 
     content: "명"; 
     cursor : text;
-}
+} */
 /* #endregion */
 
 /* #region 페이징 */
@@ -208,8 +211,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 .pagination>li>span:focus,
 .pagination>li>span:hover {
     color:#FF7061;
-    background-color: #FFECC3;
-    border-color: #FFECC3;
+    background-color: #FFB7B0;
+    border-color: #FFB7B0;
     transition-duration: .5s;
 }
 /* #endregion */
