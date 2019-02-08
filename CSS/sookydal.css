@@ -12,7 +12,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html {
     height: auto !important;
-    background-image: linear-gradient(to bottom, #0A2342 0%, #283E51 45%, #803E7E 60%, #F0CEDB 90%);
+    background-image: linear-gradient(to bottom, #0A2342 0%, #283E51 30%, #803E7E 60%, #F0CEDB 90%);
 }
 
 body {
