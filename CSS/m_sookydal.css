@@ -11,12 +11,11 @@
 /* #region 헤더 */
 header {
     border-bottom: 3px solid #FF7061;
-    background: #FF9185;
+    background: linear-gradient(to bottom, #0A2342, #456c8e);
 }
 
 header > #header-area > a > h1 {
     width: 90px;
-    background: url(https://ringether.github.io/TGD/img/dlguswjd12/logo.png) no-repeat;
     background-size: 90px 32px;
 }
 
@@ -33,7 +32,7 @@ header > #header-area > #header-search-link {
 }
 
 #board-info {
-    background: #FF9185;
+    background: #FFB3AB;
     border-top: 3px solid #FF7061;
     border-bottom: 3px solid #FF7061;
 }

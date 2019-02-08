@@ -55,13 +55,12 @@ header .row > div:nth-child(1) > a {
 
 header .row > div:nth-child(1) > a img {
     display: block;
-    filter: grayscale(100%);
-    opacity: 0.8;
+    filter: sepia(100%) brightness(200%);
 }
 
 header #header-bar > .row {
     border-top: 5px solid #FF7061;
-    border-radius: 15px 0 15px 0;
+    border-radius: 15px;
 }
 header #header-bar #header-top-notice strong.notice-badge {
     background: #FF7061;
