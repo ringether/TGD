@@ -12,7 +12,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html {
     height: auto !important;
-    background: linear-gradient(to bottom, #240B36, #C31432);
+    background-image: linear-gradient(to bottom, #0A2342, #283E51, #803E7E, #CA759C);
 }
 
 body {
@@ -42,6 +42,10 @@ header #right-search-form>#right-search-btn {
 
 img[title="Moderator"] {
     display: none;
+}
+
+a { 
+    color: #FF7061;
 }
 /* #endregion */
 
@@ -163,17 +167,17 @@ header #header-bar #header-top-notice strong.notice-badge {
     background-color: #FFFFFF;
 }
 #article-list>.article-list-row.hot {
-    background-color: #FFB7B0;
+    background-color: #FFECC3;
 }
 #article-list>.article-list-row:hover {
-    background-color:#FFB3AB;
+    background-color:#FFD2CD;
 }
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: #FF7061;
 }
 #article-list>.article-list-row:hover>.item>.list-header.v0>span {
-    background: #FFB3AB;
-    color: #FFB3AB;
+    background: #FFD2CD;
+    color: #FFD2CD;
 }
 /* #endregion */
 
