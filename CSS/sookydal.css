@@ -12,7 +12,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html {
     height: auto !important;
-    background-image: linear-gradient(to bottom, #0A2342, #283E51, #803E7E, #CA759C, #F0CEDD);
+    background-image: linear-gradient(to bottom, #0A2342 0%, #283E51 45%, #803E7E 60%, #F0CEDB 90%);
 }
 
 body {
@@ -119,6 +119,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 #main .menu-wrapper>a>i.fa.fa-square
 {
     color: #FF9185;
+}
+
+#main .menu-wrapper, #main #main-content>div.frame {
+    border-right: none;
+    border-bottom: none;
 }
 
 #main .menu-wrapper>.header {
