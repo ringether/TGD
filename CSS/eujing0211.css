@@ -226,7 +226,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* #endregion */
 
 /* #region 애니메이션 */
-header:before {
+/* header:before {
     width: 8px;
     height: 8px;
     content: ' ';
@@ -268,5 +268,5 @@ header:after {
         -webkit-transform: translate3d(0, 2000px, 0);
         -ms-transform: translate3d(0, 2000px, 0);
     }
-}
+} */
 /* #endregion */
