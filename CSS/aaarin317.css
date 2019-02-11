@@ -51,7 +51,7 @@ header .row > div:nth-child(1) > a {
     display: block;
     width: 140px;
     height: 50px;
-    background-image:url(https://ringether.github.io/TGD/img/logo_w.png);
+    background-image:url(https://ringether.github.io/TGD/img/logo.png);
 }
 
 header .row > div:nth-child(1) > a img {
@@ -335,7 +335,7 @@ div.frame > h3 {
 /* #endregion */
 
 /* #region 애니메이션 */
-header:before {
+/* header:before {
     width: 8px;
     height: 8px;
     content: ' ';
@@ -377,5 +377,5 @@ header:after {
         -webkit-transform: translate3d(0, 2000px, 0);
         -ms-transform: translate3d(0, 2000px, 0);
     }
-}
+} */
 /* #endregion */
