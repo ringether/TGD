@@ -58,11 +58,11 @@ header .row > div:nth-child(1) > a {
     display: block;
     width: 140px;
     height: 50px;
-    /*background-image:url(https://ringether.github.io/TGD/img/logo.png);*/
 }
 
 header .row > div:nth-child(1) > a img {
-    opacity: 0;
+    /* opacity: 0; */
+    filter: sepia(100%) hue-rotate(140deg) saturate(500%)
 }
 
 header #header-bar > .row {
@@ -75,7 +75,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 /* #endregion */
 
-/* #region 린게더 상단 */
+/* #region 상단 */
 #main #main-content>div.frame {
     background: 0;
     border: 0;
@@ -116,11 +116,6 @@ div.frame {
     left: 5px;
     border: 3px solid #69B6C4;
     border-radius: 50%;
-    /*
-    background: url(https://ringether.github.io/TGD/img/profile_181031.jpg) no-repeat -15px 0px;
-    padding-left: 69px;
-    background-size: 100px;
-    */
 }
 
 #board-info h1, #board-info #board-info-bottom {
