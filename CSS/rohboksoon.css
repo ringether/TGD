@@ -9,13 +9,16 @@
 */
 
 /* #region 공통 */
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html {
     height: auto;
     background: linear-gradient(to bottom, #C8EDF4 0% , #FFEFCC 70%);
 }
 
 body {
+    letter-spacing: -0.05em !important;
     background: transparent;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 ::selection{
@@ -167,7 +170,7 @@ div.frame {
     background: #FFFFFF;
     transition-duration: .7s;
 }
-#article-list #article-list-category > a.active, #article-list #article-list-category > a:hover {
+#article-list #article-list-category > a.active {
     border-radius: 10px 0 0 10px;
 }
 #article-list #article-list-category > a.active > .fa-home, #article-list #article-list-category>a.active:hover > .fa-home {
@@ -177,20 +180,44 @@ div.frame {
 #article-list #article-list-category>a[href="/rohboksoon?category=16118526"] {
     border-top: 3px solid #C894E6;
 }
+#article-list #article-list-category>a[href="/rohboksoon?category=16118526"]:hover {
+    background: #C894E6;
+    color: #FFFFFF;
+}
 #article-list #article-list-category>a[href="/rohboksoon?category=16118530"] {
     border-top: 3px solid #8BF2D8;
+}
+#article-list #article-list-category>a[href="/rohboksoon?category=16118530"]:hover {
+    background: #8BF2D8;
+    color: #FFFFFF;
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16118520"] {
     border-top: 3px solid #9EF1A4;
 }
+#article-list #article-list-category>a[href="/rohboksoon?category=16118520"]:hover {
+    background: #9EF1A4;
+    color: #FFFFFF;
+}
 #article-list #article-list-category>a[href="/rohboksoon?category=16118508"] {
     border-top: 3px solid #8FA3F0;
+}
+#article-list #article-list-category>a[href="/rohboksoon?category=16118508"]:hover {
+    background: #8FA3F0;
+    color: #FFFFFF;
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16119302"] {
     border-top: 3px solid #EFE742;
 }
+#article-list #article-list-category>a[href="/rohboksoon?category=16119302"]:hover {
+    background: #EFE742;
+    color: #FFFFFF;
+}
 #article-list #article-list-category>a[href="/rohboksoon?category=16119045"] {
     border-top: 3px solid #EEBDE8;
+}
+#article-list #article-list-category>a[href="/rohboksoon?category=16119045"]:hover {
+    background: #EEBDE8;
+    color: #FFFFFF;
 }
 
 /* #endregion */
@@ -220,6 +247,9 @@ div.frame {
     background: #F4FDFE;
     color: #000000;
     font-weight: bold;
+}
+#article-list>.article-list-row.notice:hover, #article-list>.article-list-row.hot:hover, {
+    background: #FFFFFF;
 }
 #article-list>.article-list-row.hot {
     border-color:#FFCF65;
