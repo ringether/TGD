@@ -48,7 +48,7 @@ img[title="Moderator"] {
 }
 
 #article-list #boardSearchForm {
-    border-bottom:1em;
+    margin-bottom:1em;
 }
 /* #endregion */
 
@@ -182,42 +182,42 @@ div.frame {
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16118526"]:hover {
     background: #C894E6;
-    color: #FFFFFF;
+    color: #FFFFFF!important;
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16118530"] {
     border-top: 3px solid #8BF2D8;
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16118530"]:hover {
     background: #8BF2D8;
-    color: #FFFFFF;
+    color: #FFFFFF!important;
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16118520"] {
     border-top: 3px solid #9EF1A4;
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16118520"]:hover {
     background: #9EF1A4;
-    color: #FFFFFF;
+    color: #FFFFFF!important;
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16118508"] {
     border-top: 3px solid #8FA3F0;
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16118508"]:hover {
     background: #8FA3F0;
-    color: #FFFFFF;
+    color: #FFFFFF!important;
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16119302"] {
     border-top: 3px solid #EFE742;
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16119302"]:hover {
     background: #EFE742;
-    color: #FFFFFF;
+    color: #FFFFFF!important;
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16119045"] {
     border-top: 3px solid #EEBDE8;
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16119045"]:hover {
     background: #EEBDE8;
-    color: #FFFFFF;
+    color: #FFFFFF!important;
 }
 
 /* #endregion */
@@ -248,7 +248,7 @@ div.frame {
     color: #000000;
     font-weight: bold;
 }
-#article-list>.article-list-row.notice:hover, #article-list>.article-list-row.hot:hover, {
+#article-list>.article-list-row.notice:hover, #article-list>.article-list-row.hot:hover {
     background: #FFFFFF;
 }
 #article-list>.article-list-row.hot {
