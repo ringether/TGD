@@ -11,7 +11,7 @@
 /* #region 공통 */
 html {
     height: auto;
-    background: linear-gradient(to bottom, #FFB0C2, #FFFFFF);
+    background: linear-gradient(to bottom, #C0CFEA, #FFFFFF);
 }
 
 body {
@@ -29,12 +29,12 @@ body {
 }
 
 header #right-search-form>input[type=text] {
-    border-color: #ED4A77;
+    border-color: #69B6C4;
     border-radius: 15px 0 15px 0;
 }
 
 header #right-search-form>#right-search-btn {
-    color: #ED4A77;
+    color: #69B6C4;
 }
 
 img[title="Moderator"] {
@@ -60,12 +60,12 @@ header .row > div:nth-child(1) > a img {
 
 header #header-bar > .row {
     border: 0;
-    border-top: 5px solid #ED4A77;
+    border-top: 5px solid #69B6C4;
     border-radius: 15px 0 15px 0;
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
-    background: #ED4A77;
+    background: #69B6C4;
 }
 /* #endregion */
 
@@ -108,11 +108,13 @@ div.frame {
     position: absolute;
     top: -15px;
     left: 5px;
-    border: 3px solid #ED4A77;
+    border: 3px solid #69B6C4;
     border-radius: 50%;
+    /*
     background: url(https://ringether.github.io/TGD/img/profile_181031.jpg) no-repeat -15px 0px;
     padding-left: 69px;
     background-size: 100px;
+    */
 }
 
 #board-info h1, #board-info #board-info-bottom {
@@ -121,7 +123,7 @@ div.frame {
 }
 
 #board-info #board-info-bottom a {
-    color: #ED4A77;
+    color: #69B6C4;
 }
 
 .badge {
@@ -137,22 +139,22 @@ div.frame {
 #main .menu-wrapper>a>em,
 #main .menu-wrapper>a>i.fa.fa-square
 {
-    color: #EA8FA8;
+    color: #97D5E0;
 }
 
 #main .menu-wrapper>.header {
-    background: #ED4A77;
+    background: #69B6C4;
 }
 
 #main .menu-wrapper .spacer {
-    background: #EA8FA8;
+    background: transparent;
 }
 /* #endregion */
 
 /* #region 카테고리 */
 #article-list #article-list-category {
     background: #FFF2F5;
-    border-top: 2px solid #ED4A77
+    border-top: 2px solid #69B6C4
 }
 #article-list #article-list-category > a {
     margin-top:1px;
@@ -166,7 +168,7 @@ div.frame {
     transition-duration: .7s;
 }
 #article-list #article-list-category > a.active > .fa-home, #article-list #article-list-category>a:hover > .fa-home {
-    color: #ED4A77;
+    color: #69B6C4;
 }
 /* #endregion */
 
@@ -187,7 +189,7 @@ div.frame {
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
 #article-list > .article-list-row > .item > .list-title > small.comment-count 
 {
-    color: #ED4A77;
+    color: #69B6C4;
 }
 #article-list>.article-list-row.notice{
     background-color: #FADDE5;
@@ -215,16 +217,16 @@ div.frame {
 
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user:before {
-    content: "(つ >ω●)つ 트수";
+    content: "거북단";
     cursor: text;
 }
 
 #board-info #viewers-area {
-    color: #ED4A77;
+    color: #69B6C4;
 }
 
 #board-info #viewers-area #viewers:after { 
-    content: "명 안냥"; 
+    content: "명"; 
     cursor : text;
 }
 /* #endregion */
@@ -236,19 +238,19 @@ div.frame {
 .pagination > .active > span, 
 .pagination > .active > span:focus, 
 .pagination > .active > span:hover {
-     background-color: #ED4A77; border-color: #ED4A77;
+     background-color: #69B6C4; border-color: #69B6C4;
  }
 
 .pagination>li>a,
 .pagination>li>span {
-    color:#ED4A77;
+    color:#69B6C4;
     transition-duration: .5s;
 }
 .pagination>li>a:focus,
 .pagination>li>a:hover,
 .pagination>li>span:focus,
 .pagination>li>span:hover {
-    color:#ED4A77;
+    color:#69B6C4;
     background-color: #FFF2F5;
     border-color: #FFF2F5;
     transition-duration: .5s;
@@ -257,14 +259,14 @@ div.frame {
 
 /* #region 버튼 */
 .btn-primary {
-    background-color: #EA8FA8!important;
-    border-color: #EA8FA8!important;
+    background-color: #97D5E0!important;
+    border-color: #97D5E0!important;
 }
 .btn-primary:active,
 .btn-primary:focus, 
 .btn-primary:hover {
-    background-color: #EA8FA8!important;
-    border-color: #EA8FA8!important;
+    background-color: #97D5E0!important;
+    border-color: #97D5E0!important;
 }
 /* #endregion */
 
@@ -284,17 +286,17 @@ div.frame {
 
 #article-content-wrapper>.header {
     background: #FFF2F5;
-    border-top: 2px solid #ED4A77;
+    border-top: 2px solid #69B6C4;
 }
 #article-reply-area > .header h5 {
-    color: #ED4A77;
+    color: #69B6C4;
 }
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
 #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged,
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > a,
 #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu > a
  {
-    color: #ED4A77;
+    color: #69B6C4;
 }
 /* #endregion */
 
@@ -306,7 +308,7 @@ div.frame {
 }
 
 div.frame > h3 {
-    background: #ED4A77;
+    background: #69B6C4;
     color: #FFF;
     padding: 10px;
     border-radius: 6px 6px 0 0;
