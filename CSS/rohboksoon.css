@@ -157,7 +157,6 @@ div.frame {
 #article-list #article-list-category {
     border: none;
     background: #FFFFFF;
-    border-radius: 10px;
     margin: 5px;
 }
 #article-list #article-list-category > a {
@@ -231,9 +230,7 @@ div.frame {
 }
 
 #article-list>.article-list-row{
-    border: 2px solid #C8EDF4;
-    border-radius: 20px;
-    margin-top:5px;
+    border-bottom: 2px solid #C8EDF4;
 }
 
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,

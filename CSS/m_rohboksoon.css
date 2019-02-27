@@ -71,7 +71,6 @@ img[title="Moderator"] {
 #article-list #article-list-category {
     border: none;
     background: #FFFFFF;
-    border-radius: 10px;
     margin: 5px;
 }
 #article-list #article-list-category > a {
@@ -132,12 +131,18 @@ img[title="Moderator"] {
 /* #endregion */
 
 /* #region 목록 */
+#article-list {
+    background: #FFF;
+    padding: 5px 10px;
+    border: 2px solid #69B6C4;
+    border-radius: 10px;
+    margin-top: 30px;
+}
 #article-list>.article-list-row{
     border: 2px solid #C8EDF4;
     border-radius: 20px;
     margin-top:5px;
 }
-
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
 #article-list > .article-list-row > .item > .list-title > small.comment-count 
 {
@@ -158,8 +163,14 @@ img[title="Moderator"] {
 #article-list>.article-list-row:hover {
     background-color:#F4FDFE;
 }
+#article-list>.article-list-row>.item>.list-header {
+    border: none;
+}
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: #69B6C4;
+}
+#article-list>.article-list-row>.item>.list-time {
+    border: none;
 }
 #article-list>.article-list-row:hover>.item>.list-header.v0>span {
     background: #F4FDFE;
