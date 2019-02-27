@@ -236,7 +236,7 @@ div.frame {
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
 #article-list > .article-list-row > .item > .list-title > small.comment-count 
 {
-    color: #FFCF65;
+    color: #F9B723;
 }
 #article-list>.article-list-row.notice{
     background: #F4FDFE;
@@ -247,7 +247,7 @@ div.frame {
     background: #FFFFFF;
 }
 #article-list>.article-list-row.hot {
-    border-color:#FFCF65;
+    border-color:#F9B723;
     background-color: #FFEE;
 }
 #article-list>.article-list-row:hover {
@@ -297,7 +297,7 @@ div.frame {
 
 .pagination>li>a,
 .pagination>li>span {
-    color:#FFCF65;
+    color:#F9B723;
     transition-duration: .5s;
 }
 .pagination>li>a:focus,
@@ -315,14 +315,14 @@ div.frame {
     border-radius:15px!important;
     background-color: #FFFFFF !important;
     border-color: #97D5E0!important;
-    color: #FFCF65;
+    color: #F9B723;
 }
 .btn-primary:active,
 .btn-primary:focus, 
 .btn-primary:hover {
     background-color: #F4FDFE!important;
     border-color: #97D5E0!important;
-    color: #FFCF65;
+    color: #F9B723;
 }
 
 #article-list #article-list-menu>.btn.best {
