@@ -134,14 +134,9 @@ img[title="Moderator"] {
 /* #region 목록 */
 #article-list {
     background: #FFF;
-    padding: 5px 10px;
-    border: 2px solid #69B6C4;
-    border-radius: 10px;
 }
 #article-list>.article-list-row{
-    border: 2px solid #C8EDF4;
-    border-radius: 20px;
-    margin-top:5px;
+    border-bottom: 2px solid #C8EDF4;
 }
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
 #article-list > .article-list-row > .item > .list-title > small.comment-count 
