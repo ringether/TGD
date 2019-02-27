@@ -17,6 +17,7 @@ header {
 header > #header-area > a > h1 {
     width: 90px;
     background-size: 90px 32px;
+    filter: sepia(100%) hue-rotate(140deg) saturate(500%)
 }
 
 header > #header-area > #header-bar-link {
@@ -41,6 +42,7 @@ header > #header-area > #header-search-link {
     position: absolute;
     width: 60px;
     height: 60px;
+    margin-top:-30px;
     background-size: 80px;
     border: 3px solid #69B6C4;
     border-radius: 50%;
@@ -136,7 +138,6 @@ img[title="Moderator"] {
     padding: 5px 10px;
     border: 2px solid #69B6C4;
     border-radius: 10px;
-    margin-top: 30px;
 }
 #article-list>.article-list-row{
     border: 2px solid #C8EDF4;
