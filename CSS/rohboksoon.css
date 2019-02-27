@@ -364,6 +364,10 @@ div.frame {
  {
     color: #69B6C4;
 }
+
+#comment-write-form-area {
+    padding: 0 1em 1em;
+}
 /* #endregion */
 
 /* #region 글쓰기 */

@@ -63,7 +63,7 @@ header > #header-area > #header-search-link {
 img[title="Moderator"] {
     display: none;
 }
-.fa-heart:before {
+#article-list>.article-list-row .fa-heart:before {
     content: "❤️";
 }
 /* #endregion */
