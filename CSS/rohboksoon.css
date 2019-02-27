@@ -226,7 +226,7 @@ div.frame {
     border-radius: 10px;
 }
 
-#article-list>.article-list-row>.item>.list-header {
+#article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-checkbox {
     border:0;
 }
 
