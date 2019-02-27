@@ -221,6 +221,7 @@ div.frame {
 #article-list {
     background: #FFF;
     padding: 5px 10px;
+    border-radius: 10px;
 }
 
 #article-list>.article-list-row>.item>.list-header {
