@@ -318,14 +318,12 @@ div.frame {
     border-radius:15px!important;
     background-color: #FFFFFF !important;
     border-color: #97D5E0!important;
-    color: #F9B723;
+    color: #F9B723!important;
 }
 .btn-primary:active,
 .btn-primary:focus, 
 .btn-primary:hover {
     background-color: #F4FDFE!important;
-    border-color: #97D5E0!important;
-    color: #F9B723;
 }
 
 #article-list #article-list-menu>.btn.best {
@@ -357,6 +355,19 @@ div.frame {
 #article-reply-area > .header h5 {
     color: #69B6C4;
 }
+
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
+    border: 1px solid #69B6C4;
+    border-radius: 10px;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header, 
+#article-reply-area #reply-best-area .reply>.reply-header {
+    border-bottom: 1px solid #69B6C4;
+    border-radius: 10px 10px 0 0;
+    background: #DEF7FC;
+}
+
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
 #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged,
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > a,
