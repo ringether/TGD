@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <link href="main.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="loader">
+        <div id="top"></div>
+        <div id="bottom"></div>
+        <div id="line"></div>
+    </div>
+    <div id="diff"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        var start = new Date(2019, 1, 28); // 2019-02-28
+        var end = new Date(2019, 6, 1); // 2019-07-01
+        $(function () {
+            draw()
+            var invl = setInterval(function () {
+                draw();
+            }, 1000);
+        })
+
+        function draw() {
+
+            var date = new Date();
+
+            var v = (date.diff(start))
+            var max = start.diff(end) + 1
+            var per = (v / max);
+
+            $('#top').css('transform', 'scale({0})'.fmt(1 - per.toFixed(1)));
+            $('#bottom').css('transform', 'scale({0})'.fmt(per.toFixed(1)))
+
+            $('#diff').html('으징 방송 복귀까지 {0}'.fmt(left()))
+        }
+
+        function left() {
+            var d = new Date(Math.ceil(Math.abs(end.getTime() - new Date().getTime())));
+            var s = ['일', '시간', '분', '초'];
+            var arr = [
+                d.diff2('D', end) || -1,
+                d.diff2('H', end) || -1,
+                d.diff2('M', end) || -1,
+                d.diff2('S', end) || -1
+            ];
+            var ret = [];
+
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] > 0) {
+                    ret.push(arr[i] + s[i]);
+                }
+            }
+            return ret.join(' ')
+        }
+
+        Number.prototype.toZf = function (len) {
+            var m = this < 0;
+            var rv = (m ? (this * -1) : this) + '';
+            var dif = len - rv.length;
+            var zero = '';
+            if (dif > 0) {
+                for (var i = 0; i < dif; i++) { zero += '0'; }
+            }
+            return (m ? '-' : '') + zero + rv;
+        }
+
+        Date.prototype.diff = function (target) {
+            return Math.ceil(Math.abs(target.getTime() - this.getTime()) / (1000 * 3600 * 24));
+        }
+
+        Date.prototype.diff2 = function (type, target) {
+            var d = target.getTime() - new Date().getTime()
+            var obj = {
+                D: Math.floor(d / (1000 * 60 * 60 * 24)),
+                H: Math.floor((d % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+                M:  Math.floor((d % (1000 * 60 * 60)) / (1000 * 60)),
+                S: Math.floor((d % (1000 * 60)) / 1000)
+            }
+            return obj[type]
+        }
+
+        Date.prototype.toStr = function (fm) {
+            // 날짜 -> 문자 fm형식
+            var rv = fm;
+            rv = rv.replace('yyyy', this.getFullYear());
+            rv = rv.replace('MM', (this.getMonth() + 1).toZf(2));
+            rv = rv.replace('dd', this.getDate().toZf(2));
+            rv = rv.replace('HH', this.getHours().toZf(2));
+            rv = rv.replace('mm', this.getMinutes().toZf(2));
+            rv = rv.replace('ss', this.getSeconds().toZf(2));
+            rv = rv.replace('zzz', this.getMilliseconds().toZf(3));
+            return rv;
+        }
+
+        String.prototype.fmt = function () {
+            var _mth = /\{\d+\}/g
+            var _mth_len = this.match(_mth).length;
+            var _str = this;
+            if (_mth_len != arguments.length) { throw "변환할 변수의 갯수가 올바르지 않습니다"; }
+
+            for (var idx = 0; idx < arguments.length; idx++) {
+                var _reg = new RegExp("\\{" + (idx) + "\\}", "gm");
+                _str = _str.replace(_reg, arguments[idx]);
+            }
+            return _str;
+        }
+
+    </script>
+</body>
+
+</html>
