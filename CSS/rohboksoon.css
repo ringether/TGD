@@ -379,6 +379,9 @@ div.frame {
 #comment-write-form-area {
     padding: 0 1em 1em;
 }
+#article-neighbor-list {
+    background:#FFF;
+}
 /* #endregion */
 
 /* #region 글쓰기 */
