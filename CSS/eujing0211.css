@@ -19,7 +19,7 @@ body {
     background-image: url('https://ringether.github.io/TGD/img/cherryblossom1.png'),
         url('https://ringether.github.io/TGD/img/cherryblossom2.png');
         /*url('https://ringether.github.io/TGD/img/cherryblossom3.png');*/
-    animation: cherryblossom 10s linear infinite;
+    animation: cherryblossom 20s linear infinite;
 }
 
 ::selection{
