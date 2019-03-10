@@ -16,8 +16,8 @@ header {
 
 header > #header-area > a > h1 {
     width: 90px;
-    background-size: 90px 32px;
     background: url(https://ringether.github.io/TGD/img/rohboksoon/logo.png) no-repeat;
+    background-size: 90px 32px;
 }
 
 header > #header-area > #header-bar-link {
