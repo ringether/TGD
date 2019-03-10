@@ -17,7 +17,7 @@ header {
 header > #header-area > a > h1 {
     width: 90px;
     background-size: 90px 32px;
-    filter: sepia(100%) hue-rotate(140deg) saturate(500%)
+    background: url(https://ringether.github.io/TGD/img/rohboksoon/logo.png) no-repeat;
 }
 
 header > #header-area > #header-bar-link {
