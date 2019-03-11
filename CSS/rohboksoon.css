@@ -60,13 +60,13 @@ img[title="Moderator"] {
 header .row > div:nth-child(1) > a {
     background-repeat: no-repeat;
     display: block;
-    width: 140px;
+    width: 200px;
     height: 50px;
+    background-image:url(https://ringether.github.io/TGD/img/rohboksoon/logo.png);
 }
 
 header .row > div:nth-child(1) > a img {
-    /* opacity: 0; */
-    filter: sepia(100%) hue-rotate(140deg) saturate(500%)
+    opacity: 0;
 }
 
 header #header-bar > .row {
