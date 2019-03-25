@@ -169,11 +169,11 @@ div.frame {
     background: #FFFFFF;
     transition-duration: .7s;
 }
-#article-list #article-list-category > a.active {
+#article-list #article-list-category > a.nav-link {
     border-top: 3px solid #69B6C4;
     background: #97D5E0;
 }
-#article-list #article-list-category > a.active > .fa-home, #article-list #article-list-category>a.active:hover > .fa-home {
+#article-list #article-list-category > a.nav-link > .fa-home, #article-list #article-list-category>a.nav-link:hover > .fa-home {
     color: #FFFFFF;
 }
 
@@ -217,6 +217,13 @@ div.frame {
 }
 #article-list #article-list-category>a[href="/rohboksoon?category=16119045"]:hover {
     background: #EEBDE8;
+    color: #FFFFFF!important;
+}
+#article-list #article-list-category>a[href="/rohboksoon?category=19419701"] {
+    border-top: 3px solid #D88870;
+}
+#article-list #article-list-category>a[href="/rohboksoon?category=19419701"]:hover {
+    background: #D88870;
     color: #FFFFFF!important;
 }
 
