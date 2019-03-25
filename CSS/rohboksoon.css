@@ -173,7 +173,7 @@ div.frame {
     border-top: 3px solid #69B6C4;
     background: #97D5E0;
 }
-#article-list #article-list-category > a.nav-link > .fa-home, #article-list #article-list-category>a.nav-link:hover > .fa-home {
+#article-list #article-list-category > a.active > .fa-home, #article-list #article-list-category>a.active:hover > .fa-home {
     color: #FFFFFF;
 }
 
