@@ -78,8 +78,10 @@ img[title="Moderator"] {
     background: #FFFFFF;
     transition-duration: .7s;
 }
-#article-list #article-list-category > a.active {
+#article-list #article-list-category > a.nav-link:first-child {
     border-top: 3px solid #69B6C4;
+}
+#article-list #article-list-category > a.nav-link.active:first-child {
     background: #97D5E0;
 }
 #article-list #article-list-category > a.active > .fa-home, #article-list #article-list-category>a.active:hover > .fa-home {
