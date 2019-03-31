@@ -1,0 +1,274 @@
+/*
+** Github : http://github.com/ringether/TGD/
+** Copyright(c)2018 All rights reserved by dlguswjd12
+**
+** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
+**
+** 크게더는 트게더의 CSS 운영정책을 존중합니다.
+** 혹여나, 위반되는 항목이 있는 경우 크게더에 알려주세요.
+*/
+
+/* #region 공통 */
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+html {
+    height: auto !important;
+    background: linear-gradient(to bottom, #FADB9A, #FFF5E1);
+}
+
+body {
+    letter-spacing: -0.05em !important;
+    background: transparent;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-image: url('https://ringether.github.io/TGD/img/cherryblossom1.png'),
+        url('https://ringether.github.io/TGD/img/cherryblossom2.png');
+        /*url('https://ringether.github.io/TGD/img/cherryblossom3.png');*/
+    animation: cherryblossom 20s linear infinite;
+}
+
+::selection{
+    background: #FAC450;
+    color: #FFF;
+}
+
+::-moz-selection {
+    background: #FAC450;
+    color: #FFF;
+}
+
+header #right-search-form>input[type=text] {
+    border-color: #F9B74E;
+    border-radius: 15px;
+}
+
+header #right-search-form>#right-search-btn {
+    color: #F9B74E;
+}
+
+img[title="Moderator"] {
+    display: none;
+}
+/* #endregion */
+
+/* #region 헤더 */
+header .row > div:nth-child(1) > a {
+    background-repeat: no-repeat;
+    display: block;
+    width: 140px;
+    height: 50px;
+    background-image:url(https://ringether.github.io/TGD/img/cring12/logo_fools.png);
+    background-size: 140px 50px;
+}
+
+header .row > div:nth-child(1) > a img {
+    opacity: 0;
+}
+
+header #header-bar > .row {
+    border-top: 5px solid #F9B74E;
+    border-radius: 15px 0 15px 0;
+}
+header #header-bar #header-top-notice strong.notice-badge {
+    background: #F9B74E;
+}
+/* #endregion */
+
+/* #region 크게더 상단 */
+
+#board-info #board-info-profile-img {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: -15px;
+    left: 5px;
+    border: 3px solid #F9B74E;
+    border-radius: 50%;
+    /*
+    background: url(https://ringether.github.io/TGD/img/profile_181031.jpg) no-repeat -15px 0px;
+    padding-left: 69px;
+    background-size: 100px;
+    */
+}
+
+#board-info h1, #board-info #board-info-bottom {
+    margin-left: 70px;
+}
+
+#board-info {
+    display: flex;
+    padding: 1em;
+    border-radius: 10px;
+    background: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+#board-info #board-info-bottom {
+    flex: auto;
+    text-align: right;
+}
+
+#board-info #board-info-bottom a {
+    border: 0;
+    color: #F9B74E;
+}
+
+#board-info h1 {
+    border-bottom: 0;
+}
+
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
+#article-list > .article-list-row > .item > .list-title > small.comment-count 
+{
+    color: #F9B74E;
+}
+
+/* #endregion */
+
+/* #region 좌측 메뉴 */
+#main .menu-wrapper>a>em,
+#main .menu-wrapper>a>i.fa.fa-square
+{
+    color: #FFC872;
+}
+
+#main .menu-wrapper>.header {
+    background: #F9B74E;
+}
+
+#main .menu-wrapper .spacer {
+    background: #FFC872;
+}
+/* #endregion */
+
+/* #region 카테고리 */
+#article-list #article-list-category {
+    background: #FFEBAC;
+    border-top: 2px solid #F9B74E
+}
+#article-list #article-list-category > a {
+    margin-top:1px;
+    background: #FFEBAC;
+    transition-duration: .7s;
+}
+#article-list #article-list-category > a.active,
+#article-list #article-list-category > a:hover 
+{
+    background: #FFFFFF;
+    transition-duration: .7s;
+}
+#article-list #article-list-category > a.active > .fa-home, #article-list #article-list-category>a:hover > .fa-home {
+    color: #F9B74E;
+}
+/* #endregion */
+
+/* #region 목록 */
+#article-list>.article-list-row.notice {
+    background-color: #FFFCF2;
+}
+#article-list>.article-list-row.notice:hover {
+    background-color: #FFFFFF;
+}
+#article-list>.article-list-row.hot {
+    background-color: #FFECC3;
+}
+#article-list>.article-list-row:hover {
+    background-color:#FFFCF2;
+}
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #FAC450;
+}
+#article-list>.article-list-row:hover>.item>.list-header.v0>span {
+    background: #FFFCF2;
+    color: #FFFCF2;
+}
+/* #endregion */
+
+/* #region 뷰어 */
+#board-info #viewers-area .fa-user:before {
+    content: "코코단";
+    cursor: text;
+}
+#board-info #viewers-area {
+    color: #F9B74E;
+}
+#board-info #viewers-area #viewers:after { 
+    content: "명"; 
+    cursor : text;
+}
+/* #endregion */
+
+/* #region 페이징 */
+.pagination > .active > a, 
+.pagination > .active > a:focus, 
+.pagination > .active > a:hover, 
+.pagination > .active > span, 
+.pagination > .active > span:focus, 
+.pagination > .active > span:hover {
+     background-color: #F9B74E; border-color: #F9B74E;
+ }
+
+.pagination>li>a,
+.pagination>li>span {
+    color:#F9B74E;
+    transition-duration: .5s;
+}
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    color:#F9B74E;
+    background-color: #FFECC3;
+    border-color: #FFECC3;
+    transition-duration: .5s;
+}
+/* #endregion */
+
+/* #region 버튼 */
+.btn-primary {
+    background-color: #FFC872!important;
+    border-color: #FFC872!important;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus  {
+    background-color: #FFC872!important;
+    border-color: #FFC872!important;
+}
+/* #endregion */
+
+/* #region 게시글 */
+#article-content-wrapper>.header {
+    background: #FFD374;
+    border-top: 2px solid #F9B74E;
+}
+#article-reply-area > .header h5 {
+    color: #F9B74E;
+}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
+#article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged,
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > a,
+#article-reply-area #reply-best-area .reply > .reply-header > .reply-menu > a
+ {
+    color: #F9B74E;
+}
+/* #endregion */
+
+/* #region 애니메이션 */
+@keyframes cherryblossom {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-moz-keyframes cherryblossom {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-webkit-keyframes cherryblossom {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-ms-keyframes cherryblossom {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+/* #endregion */
