@@ -15,9 +15,9 @@ header {
 }
 
 header > #header-area > a > h1 {
-    width: 100px;
+    width: 120px;
     background: url(https://ringether.github.io/TGD/img/rohboksoon/logo_fools.png) no-repeat;
-    background-size: 110px 32px;
+    background-size: 120px 32px;
 }
 
 header > #header-area > #header-bar-link {

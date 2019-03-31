@@ -53,10 +53,10 @@ img[title="Moderator"] {
 header .row > div:nth-child(1) > a {
     background-repeat: no-repeat;
     display: block;
-    width: 140px;
+    width: 200px;
     height: 50px;
     background-image:url(https://ringether.github.io/TGD/img/cring12/logo_fools.png);
-    background-size: 140px 50px;
+    background-size: 100% 50px;
 }
 
 header .row > div:nth-child(1) > a img {
