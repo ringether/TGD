@@ -51,6 +51,7 @@ img[title="Moderator"] {
     content: "❤️";
     animation: pulse 1.5s linear infinite;
     border-radius: 50%;
+    padding: 1px 0.5px 1px 0;
 }
 
 #article-list #boardSearchForm {
