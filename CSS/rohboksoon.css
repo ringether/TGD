@@ -54,7 +54,7 @@ img[title="Moderator"] {
     padding: 1px 0.6px 1px 0;
 }
 
-#article-list>.article-list-row .fa-heart:before {
+#article-list>.article-list-row .fa-star:before {
     animation: rotate 1s linear infinite;
 }
 
@@ -466,19 +466,19 @@ div.frame > h3 {
 }
 
 @keyframes rotate {
-    from { transform: rotateY(180deg); }
+    from { transform: rotateY(360deg); }
     to { transform: rotateY(0deg); }
 }
 @-moz-keyframes rotate {
-    from { transform: rotateY(180deg); }
+    from { transform: rotateY(360deg); }
     to { transform: rotateY(0deg); }
 }
 @-webkit-keyframes rotate {
-    from { transform: rotateY(180deg); }
+    from { transform: rotateY(360deg); }
     to { transform: rotateY(0deg); }
 }
 @-ms-keyframes rotate {
-    from { transform: rotateY(180deg); }
+    from { transform: rotateY(360deg); }
     to { transform: rotateY(0deg); }
 }
 /* #endregion */
