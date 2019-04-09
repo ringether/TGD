@@ -54,8 +54,8 @@ img[title="Moderator"] {
     padding: 1px 0.6px 1px 0;
 }
 
-#article-list>.article-list-row .fa-star:before {
-    animation: rotate 1s linear infinite;
+#article-list>.article-list-row .fa-star {
+    animation: rotate 1.5s linear infinite;
 }
 
 #article-list #boardSearchForm {
