@@ -49,13 +49,13 @@ img[title="Moderator"] {
 }
 #article-list>.article-list-row .fa-heart:before {
     content: "❤️";
-    animation: pulse 1.5s linear infinite;
+    animation: pulse 1.5s infinite;
     border-radius: 50%;
     padding: 1px 0.6px 1px 0;
 }
 
 #article-list>.article-list-row .fa-star {
-    animation: rotate 1.5s linear infinite;
+    animation: rotate 1.5s infinite;
 }
 
 #article-list #boardSearchForm {
