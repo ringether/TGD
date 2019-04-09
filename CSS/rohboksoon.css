@@ -466,19 +466,19 @@ div.frame > h3 {
 }
 
 @keyframes rotate {
-    from { transform: rotateY(360deg); }
-    to { transform: rotateY(0deg); }
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
 }
 @-moz-keyframes rotate {
-    from { transform: rotateY(360deg); }
-    to { transform: rotateY(0deg); }
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
 }
 @-webkit-keyframes rotate {
-    from { transform: rotateY(360deg); }
-    to { transform: rotateY(0deg); }
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
 }
 @-ms-keyframes rotate {
-    from { transform: rotateY(360deg); }
-    to { transform: rotateY(0deg); }
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
 }
 /* #endregion */
