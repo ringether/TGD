@@ -260,6 +260,7 @@ div.frame {
     background: url(https://ringether.github.io/TGD/img/rohboksoon/humble.png) no-repeat;
     background-size: contain;
     display: none;
+    z-index: -1;
 }
 @media screen and (min-width: 1280px) and (max-width: 1365px) {
     #article-list #article-list-category>a.active[href="/rohboksoon?category=21297662"]:before {
