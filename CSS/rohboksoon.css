@@ -242,6 +242,14 @@ div.frame {
     background: #D88870;
     color: #FFFFFF!important;
 }
+#article-list #article-list-category>a[href="/rohboksoon?category=21297662"] {
+    border-top: 3px solid #F78282;
+}
+#article-list #article-list-category>a[href="/rohboksoon?category=21297662"]:hover, 
+#article-list #article-list-category>a.active[href="/rohboksoon?category=21297662"]{
+    background: #F78282;
+    color: #FFFFFF!important;
+}
 
 /* #endregion */
 
