@@ -250,6 +250,45 @@ div.frame {
     background: #F78282;
     color: #FFFFFF!important;
 }
+/* 진실의방 */
+
+#article-list #article-list-category>a.active[href="/rohboksoon?category=21297662"]:before {
+    content: " ";
+    position: fixed;
+    top: 10px;
+    right: 0;
+    background: url(https://ringether.github.io/TGD/img/rohboksoon/humble.png) no-repeat;
+    background-size: contain;
+    display: none;
+}
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+    #article-list #article-list-category>a.active[href="/rohboksoon?category=21297662"]:before {
+        width: 100px;
+        height: 100px;
+        display: block;
+    }
+}
+@media screen and (min-width: 1366px) and (max-width: 1439px) {
+    #article-list #article-list-category>a.active[href="/rohboksoon?category=21297662"]:before {
+        width: 100px;
+        height: 100px;
+        display: block;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+    #article-list #article-list-category>a.active[href="/rohboksoon?category=21297662"]:before {
+        width: 150px;
+        height: 150px;
+        display: block;
+    }
+}
+@media screen and (min-width: 1600px) {
+    #article-list #article-list-category>a.active[href="/rohboksoon?category=21297662"]:before {
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+}
 
 /* #endregion */
 
@@ -309,6 +348,10 @@ div.frame {
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user:before {
     content: "거북단";
+    cursor: text;
+}
+#board-info #viewers-area .fa-user:hover:before {
+    content: "겨북단";
     cursor: text;
 }
 
