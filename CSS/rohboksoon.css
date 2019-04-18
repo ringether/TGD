@@ -303,6 +303,10 @@ div.frame {
     content: "거북단";
     cursor: text;
 }
+#board-info #viewers-area .fa-user:hover:before {
+    content: "겨북단";
+    cursor: text;
+}
 
 #board-info #viewers-area {
     color: #69B6C4;
