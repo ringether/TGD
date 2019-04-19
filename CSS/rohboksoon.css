@@ -480,20 +480,20 @@ div.frame > h3 {
 
 /* #region 애니메이션 */
 @keyframes cherryblossom {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+    0% { transform: translate(0, 0); }
+    100% {transform: translate(500px 1000px);}
 }
 @-moz-keyframes cherryblossom {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+    0% { -moz-transform: translate(0, 0); }
+    100% { -moz-transform: translate(500px 1000px); }
 }
 @-webkit-keyframes cherryblossom {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+    0% { -webkit-transform: translate(0, 0); }
+    100% {-webkit-transform: translate(500px 1000px);}
 }
 @-ms-keyframes cherryblossom {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+    0% { -ms-transform: translate(0, 0); }
+    100% {-ms-transform: translate(500px 1000px);}
 }
 
 @keyframes pulse {
