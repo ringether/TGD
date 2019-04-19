@@ -19,6 +19,13 @@ body {
     letter-spacing: -0.05em !important;
     background: transparent;
     font-family: 'Nanum Gothic', sans-serif;
+    
+}
+
+body:before {
+    content: " ";
+    width: 500px;
+    height: 500px;
     background-image: url('https://ringether.github.io/TGD/img/cherryblossom1.png'),
         url('https://ringether.github.io/TGD/img/cherryblossom2.png');
         /*url('https://ringether.github.io/TGD/img/cherryblossom3.png');*/
