@@ -30,7 +30,7 @@ body:before {
     z-index: -1;
     background-image: url('https://ringether.github.io/TGD/img/cherryblossom1.png');
     animation: cherryblossom 20s linear infinite;
-    transform: 0 0;
+    transform: translate(0 0);
 }
 
 body:after {
@@ -40,8 +40,8 @@ body:after {
     position: fixed;
     z-index: -1;
     background-image: url('https://ringether.github.io/TGD/img/cherryblossom2.png');
-    animation: cherryblossom 20s linear infinite;
-    transform: 0 0;
+    animation: cherryblossom2 20s linear infinite;
+    transform: translate(0 0);
 }
 
 ::selection{
