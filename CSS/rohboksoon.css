@@ -24,10 +24,11 @@ body {
 
 body:before {
     content: " ";
-    width: 500px;
-    height: 500px;
-    background-image: url('https://ringether.github.io/TGD/img/cherryblossom1.png'),
-        url('https://ringether.github.io/TGD/img/cherryblossom2.png');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image: url('https://ringether.github.io/TGD/img/cherryblossom1.png');
+        /* url('https://ringether.github.io/TGD/img/cherryblossom2.png'); */
         /*url('https://ringether.github.io/TGD/img/cherryblossom3.png');*/
     animation: cherryblossom 20s linear infinite;
 }
