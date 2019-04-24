@@ -9,6 +9,7 @@
 */
 
 /* #region 헤더 */
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 header {
     border-bottom: 3px solid #69B6C4;
     background: #97D5E0;
@@ -30,6 +31,12 @@ header > #header-area > #header-search-link {
 
 #header-top-notice strong.notice-badge {
     background: #69B6C4;
+}
+
+body {
+    letter-spacing: -0.05em !important;
+    font-family: 'Nanum Gothic', sans-serif;
+    
 }
 
 #board-info {

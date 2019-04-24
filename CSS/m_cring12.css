@@ -9,6 +9,7 @@
 */
 
 /* #region 헤더 */
+@font-face { font-family: 'UhBeeHYUNJUNG'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeHYUNJUNG.woff') format('woff'); font-weight: normal; font-style: normal; }
 header {
     border-bottom: 3px solid #F9B74E;
     background: #FADB9A;
@@ -30,6 +31,11 @@ header > #header-area > #header-search-link {
 
 #header-top-notice strong.notice-badge {
     background: #F9B74E;
+}
+
+body {
+    letter-spacing: -0.05em !important;
+    font-family: 'UhBeeHYUNJUNG', sans-serif;
 }
 
 #board-info {
