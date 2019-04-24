@@ -187,6 +187,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info #viewers-area .fa-user:before {
     content: "코코단";
     cursor: text;
+    font-family: 'Dovemayo-Medium', sans-serif;
 }
 #board-info #viewers-area {
     color: #F9B74E;
