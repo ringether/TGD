@@ -19,7 +19,6 @@ body {
     letter-spacing: -0.05em !important;
     background: transparent;
     font-family: 'Nanum Gothic', sans-serif;
-    
 }
 
 ::selection{
@@ -181,6 +180,15 @@ div.frame {
 }
 #article-list #article-list-category > a.active > .fa-home, #article-list #article-list-category>a.active:hover > .fa-home {
     color: #FFFFFF;
+}
+
+#article-list #article-list-category>a[href="/rohboksoon?category=21658953"] {
+    border-top: 3px solid #ffaf43;
+}
+#article-list #article-list-category>a[href="/rohboksoon?category=21658953"]:hover, 
+#article-list #article-list-category>a.active[href="/rohboksoon?category=21658953"] {
+    background: #ffaf43;
+    color: #FFFFFF!important;
 }
 
 #article-list #article-list-category>a[href="/rohboksoon?category=16118526"] {
@@ -490,37 +498,20 @@ div.frame > h3 {
 /* #region 애니메이션 */
 /*
 @keyframes cherryblossom {
-    0% { transform: translate(0, 0); }
-    100% {transform: translate(500px 1000px);}
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 @-moz-keyframes cherryblossom {
-    0% { -moz-transform: translate(0, 0); }
-    100% { -moz-transform: translate(500px 1000px); }
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 @-webkit-keyframes cherryblossom {
-    0% { -webkit-transform: translate(0, 0); }
-    100% {-webkit-transform: translate(500px 1000px);}
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 @-ms-keyframes cherryblossom {
-    0% { -ms-transform: translate(0, 0); }
-    100% {-ms-transform: translate(500px 1000px);}
-}
-
-@keyframes cherryblossom2 {
-    0% { transform: translate(0, 0); }
-    100% {transform: translate(400px 400px);}
-}
-@-moz-keyframes cherryblossom2 {
-    0% { -moz-transform: translate(0, 0); }
-    100% { -moz-transform: translate(400px 400px); }
-}
-@-webkit-keyframes cherryblossom2 {
-    0% { -webkit-transform: translate(0, 0); }
-    100% {-webkit-transform: translate(400px 400px);}
-}
-@-ms-keyframes cherryblossom2 {
-    0% { -ms-transform: translate(0, 0); }
-    100% {-ms-transform: translate(400px 400px);}
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 */
 
