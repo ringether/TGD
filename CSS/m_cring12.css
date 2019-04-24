@@ -9,7 +9,7 @@
 */
 
 /* #region 헤더 */
-@font-face { font-family: 'UhBeeHYUNJUNG'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeHYUNJUNG.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Dovemayo-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
 header {
     border-bottom: 3px solid #F9B74E;
     background: #FADB9A;
@@ -35,7 +35,7 @@ header > #header-area > #header-search-link {
 
 body {
     letter-spacing: -0.05em !important;
-    font-family: 'UhBeeHYUNJUNG', sans-serif;
+    font-family: 'Dovemayo-Medium', sans-serif;
 }
 
 #board-info {
