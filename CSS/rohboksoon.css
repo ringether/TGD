@@ -367,10 +367,12 @@ div.frame {
 #board-info #viewers-area .fa-user:before {
     content: "거북단";
     cursor: text;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 #board-info #viewers-area .fa-user:hover:before {
     content: "겨북단";
     cursor: text;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 #board-info #viewers-area {
