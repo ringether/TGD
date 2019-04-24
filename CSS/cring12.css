@@ -9,7 +9,7 @@
 */
 
 /* #region 공통 */
-@font-face { font-family: 'UhBeeHYUNJUNG'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeHYUNJUNG.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Dovemayo-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
 html {
     height: auto !important;
     background: linear-gradient(to bottom, #FADB9A, #FFF5E1);
@@ -18,7 +18,7 @@ html {
 body {
     letter-spacing: -0.05em !important;
     background: transparent;
-    font-family: 'UhBeeHYUNJUNG', sans-serif;
+    font-family: 'Dovemayo-Medium', sans-serif;
     background-image: url('https://ringether.github.io/TGD/img/cherryblossom1.png'),
         url('https://ringether.github.io/TGD/img/cherryblossom2.png');
         /*url('https://ringether.github.io/TGD/img/cherryblossom3.png');*/
