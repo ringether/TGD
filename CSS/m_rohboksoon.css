@@ -95,6 +95,15 @@ img[title="Moderator"] {
     color: #FFFFFF;
 }
 
+#article-list #article-list-category>a[href="/rohboksoon?category=21658953"] {
+    border-top: 3px solid #ffaf43;
+}
+#article-list #article-list-category>a[href="/rohboksoon?category=21658953"]:hover, 
+#article-list #article-list-category>a.active[href="/rohboksoon?category=21658953"] {
+    background: #ffaf43;
+    color: #FFFFFF!important;
+}
+
 #article-list #article-list-category>a[href="/rohboksoon?category=16118526"] {
     border-top: 3px solid #C894E6;
 }
