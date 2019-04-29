@@ -134,12 +134,6 @@ div.frame {
     color: #69B6C4;
 }
 
-#board-info h1>a::after {
-    content: "(로北이)";
-    font-size: 18px;
-    color: #D81C1E;
-}
-
 .badge {
     margin: 2px;
 }
@@ -371,12 +365,12 @@ div.frame {
 
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user:before {
-    content: "거北단";
+    content: "거북단";
     cursor: text;
     font-family: 'Nanum Gothic', sans-serif;
 }
 #board-info #viewers-area .fa-user:hover:before {
-    content: "겨北단";
+    content: "겨북단";
     cursor: text;
     font-family: 'Nanum Gothic', sans-serif;
 }
