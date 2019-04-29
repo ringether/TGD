@@ -365,7 +365,7 @@ div.frame {
 
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user:before {
-    content: "생거북단";
+    content: "거북단";
     cursor: text;
     font-family: 'Nanum Gothic', sans-serif;
 }
