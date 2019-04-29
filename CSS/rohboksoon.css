@@ -137,6 +137,7 @@ div.frame {
 #board-info h1>a::after {
     content: "(로北이)";
     font-size: 18px;
+    color: #D81C1E;
 }
 
 .badge {
