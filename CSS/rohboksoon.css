@@ -63,6 +63,9 @@ img[title="Moderator"] {
 /* #endregion */
 
 /* #region 헤더 */
+header{
+    padding: 1em 0;
+}
 header .row > div:nth-child(1) > a {
     background-repeat: no-repeat;
     display: block;
