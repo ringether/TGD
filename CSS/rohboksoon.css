@@ -78,6 +78,7 @@ header .row > div:nth-child(1) > a img {
 header #header-bar > .row {
     border: 2px solid #69B6C4;
     border-radius: 20px;
+    box-shadow: 0 4px 0 #69B6C4;
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
@@ -319,6 +320,7 @@ div.frame {
     padding: 5px 10px;
     border: 2px solid #69B6C4;
     border-radius: 10px;
+    box-shadow: 0 4px 0 #69B6C4;
 }
 
 #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-checkbox {
