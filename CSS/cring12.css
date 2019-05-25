@@ -16,7 +16,6 @@ html {
 }
 
 body {
-    letter-spacing: -0.05em !important;
     background: transparent;
     font-family: 'Dovemayo-Medium', sans-serif;
     background-image: url('https://ringether.github.io/TGD/img/cherryblossom1.png'),
