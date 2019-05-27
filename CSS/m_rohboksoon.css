@@ -120,11 +120,11 @@ img[title="Moderator"] {
     color: #FFFFFF!important;
 }
 #article-list #article-list-category>a[href="/nobugi?category=16118530"] {
-    border-top: 3px solid #8BF2D8;
+    border-top: 3px solid #6bedcc;
 }
 #article-list #article-list-category>a[href="/nobugi?category=16118530"]:hover, 
 #article-list #article-list-category>a.active[href="/nobugi?category=16118530"] {
-    background: #8BF2D8;
+    background: #6bedcc;
     color: #FFFFFF!important;
 }
 #article-list #article-list-category>a[href="/nobugi?category=16118520"] {
@@ -176,11 +176,11 @@ img[title="Moderator"] {
     color: #FFFFFF!important;
 }
 #article-list #article-list-category>a[href="/nobugi?category=23105360"] {
-    border-top: 3px solid #E4EFB2;
+    border-top: 3px solid #DDE9A8;
 }
 #article-list #article-list-category>a[href="/nobugi?category=23105360"]:hover, 
 #article-list #article-list-category>a.active[href="/nobugi?category=23105360"]{
-    background: #E4EFB2;
+    background: #DDE9A8;
     color: #FFFFFF!important;
 }
 /* #endregion */
