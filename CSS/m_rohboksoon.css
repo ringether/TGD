@@ -17,7 +17,7 @@ header {
 
 header > #header-area > a > h1 {
     width: 120px;
-    background: url(https://ringether.github.io/TGD/img/rohboksoon/logo_ham.png) no-repeat;
+    background: url(https://ringether.github.io/TGD/img/rohboksoon/logo.png) no-repeat;
     background-size: 120px 32px;
 }
 
@@ -173,6 +173,14 @@ img[title="Moderator"] {
 #article-list #article-list-category>a[href="/nobugi?category=21297662"]:hover, 
 #article-list #article-list-category>a.active[href="/nobugi?category=21297662"]{
     background: #F78282;
+    color: #FFFFFF!important;
+}
+#article-list #article-list-category>a[href="/nobugi?category=23105360"] {
+    border-top: 3px solid #E4EFB2;
+}
+#article-list #article-list-category>a[href="/nobugi?category=23105360"]:hover, 
+#article-list #article-list-category>a.active[href="/nobugi?category=23105360"]{
+    background: #E4EFB2;
     color: #FFFFFF!important;
 }
 /* #endregion */
