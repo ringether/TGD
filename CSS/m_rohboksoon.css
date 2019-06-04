@@ -39,6 +39,16 @@ body {
     
 }
 
+body:after{
+    content: " ";
+    display: block;
+    background: url(https://ringether.github.io/TGD/img/rohboksoon/dust.png);
+    background-size: contain;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+}
+
 #board-info {
     background: #C8EDF4;
     border-top: 3px solid #69B6C4;

@@ -24,6 +24,16 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+body:after{
+    content: " ";
+    display: block;
+    background: url(https://ringether.github.io/TGD/img/rohboksoon/dust.png);
+    background-size: contain;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+}
+
 ::selection{
     background: #418F9E;
     color: #FFF;
@@ -32,6 +42,28 @@ body {
 ::-moz-selection {
     background: #418F9E;
     color: #FFF;
+}
+
+header:before{
+    content: " ";
+    display: block;
+    background: url(https://ringether.github.io/TGD/img/rohboksoon/spiderweb1.png) no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header:after{
+    content: " ";
+    display: block;
+    background: url(https://ringether.github.io/TGD/img/rohboksoon/spiderweb2.png) no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 header #right-search-form>input[type=text] {
