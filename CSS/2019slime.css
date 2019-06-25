@@ -154,7 +154,7 @@ div.frame {
 #main .menu-wrapper>a>em,
 #main .menu-wrapper>a>i.fa.fa-square
 {
-    color: #97D5E0;
+    color: #D6666F;
 }
 
 #main .menu-wrapper>.header {
@@ -183,145 +183,10 @@ div.frame {
     border-top: 3px solid #F1A399;
 }
 #article-list #article-list-category > a.nav-link.active:first-child {
-    background: #97D5E0;
+    background: #F1A399;
 }
 #article-list #article-list-category > a.active > .fa-home, #article-list #article-list-category>a.active:hover > .fa-home {
     color: #FFFFFF;
-}
-
-#article-list #article-list-category>a[href="/nobugi?category=21658953"] {
-    border-top: 3px solid #ffaf43;
-}
-#article-list #article-list-category>a[href="/nobugi?category=21658953"]:hover, 
-#article-list #article-list-category>a.active[href="/nobugi?category=21658953"] {
-    background: #ffaf43;
-    color: #FFFFFF!important;
-}
-
-#article-list #article-list-category>a[href="/nobugi?category=16118526"] {
-    border-top: 3px solid #C894E6;
-}
-#article-list #article-list-category>a[href="/nobugi?category=16118526"]:hover, 
-#article-list #article-list-category>a.active[href="/nobugi?category=16118526"] {
-    background: #C894E6;
-    color: #FFFFFF!important;
-}
-#article-list #article-list-category>a[href="/nobugi?category=16118530"] {
-    border-top: 3px solid #6bedcc;
-}
-#article-list #article-list-category>a[href="/nobugi?category=16118530"]:hover, 
-#article-list #article-list-category>a.active[href="/nobugi?category=16118530"] {
-    background: #6bedcc;
-    color: #FFFFFF!important;
-}
-#article-list #article-list-category>a[href="/nobugi?category=16118520"] {
-    border-top: 3px solid #9EF1A4;
-}
-#article-list #article-list-category>a[href="/nobugi?category=16118520"]:hover, 
-#article-list #article-list-category>a.active[href="/nobugi?category=16118520"] {
-    background: #9EF1A4;
-    color: #FFFFFF!important;
-}
-#article-list #article-list-category>a[href="/nobugi?category=16118508"] {
-    border-top: 3px solid #8FA3F0;
-}
-#article-list #article-list-category>a[href="/nobugi?category=16118508"]:hover, 
-#article-list #article-list-category>a.active[href="/nobugi?category=16118508"] {
-    background: #8FA3F0;
-    color: #FFFFFF!important;
-}
-#article-list #article-list-category>a[href="/nobugi?category=16119302"] {
-    border-top: 3px solid #EFE742;
-}
-#article-list #article-list-category>a[href="/nobugi?category=16119302"]:hover, 
-#article-list #article-list-category>a.active[href="/nobugi?category=16119302"] {
-    background: #EFE742;
-    color: #FFFFFF!important;
-}
-#article-list #article-list-category>a[href="/nobugi?category=16119045"] {
-    border-top: 3px solid #EEBDE8;
-}
-#article-list #article-list-category>a[href="/nobugi?category=16119045"]:hover, 
-#article-list #article-list-category>a.active[href="/nobugi?category=16119045"] {
-    background: #EEBDE8;
-    color: #FFFFFF!important;
-}
-#article-list #article-list-category>a[href="/nobugi?category=19419701"] {
-    border-top: 3px solid #D88870;
-}
-#article-list #article-list-category>a[href="/nobugi?category=19419701"]:hover, 
-#article-list #article-list-category>a.active[href="/nobugi?category=19419701"]{
-    background: #D88870;
-    color: #FFFFFF!important;
-}
-#article-list #article-list-category>a[href="/nobugi?category=21297662"] {
-    border-top: 3px solid #F78282;
-}
-#article-list #article-list-category>a[href="/nobugi?category=21297662"]:hover, 
-#article-list #article-list-category>a.active[href="/nobugi?category=21297662"]{
-    background: #F78282;
-    color: #FFFFFF!important;
-}
-#article-list #article-list-category>a[href="/nobugi?category=23105360"] {
-    border-top: 3px solid #DDE9A8;
-}
-#article-list #article-list-category>a[href="/nobugi?category=23105360"]:hover, 
-#article-list #article-list-category>a.active[href="/nobugi?category=23105360"]{
-    background: #DDE9A8;
-    color: #FFFFFF!important;
-}
-/* 진실의방 */
-
-#article-list #article-list-category>a.active[href="/nobugi?category=21297662"]:before {
-    content: " ";
-    position: fixed;
-    top: 10px;
-    right: 0;
-    background: url(https://ringether.github.io/TGD/img/rohboksoon/humble.png) no-repeat;
-    background-size: contain;
-    display: none;
-    z-index: -1;
-}
-@media screen and (min-width: 1280px) and (max-width: 1365px) {
-    #article-list #article-list-category>a.active[href="/nobugi?category=21297662"]:before {
-        width: 100px;
-        height: 100px;
-        display: block;
-    }
-}
-@media screen and (min-width: 1366px) and (max-width: 1439px) {
-    #article-list #article-list-category>a.active[href="/nobugi?category=21297662"]:before {
-        width: 100px;
-        height: 100px;
-        display: block;
-    }
-}
-@media screen and (min-width: 1440px) and (max-width: 1599px) {
-    #article-list #article-list-category>a.active[href="/nobugi?category=21297662"]:before {
-        width: 150px;
-        height: 150px;
-        display: block;
-    }
-}
-@media screen and (min-width: 1600px) {
-    #article-list #article-list-category>a.active[href="/nobugi?category=21297662"]:before {
-        width: 200px;
-        height: 200px;
-        display: block;
-    }
-}
-
-#article-list #article-list-category>a.active[href="/nobugi?category=21297662"]:after {
-    content: " ";
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-image: url(https://ringether.github.io/TGD/img/rohboksoon/jail.png);
-    background-size: 300px;
-    z-index: -2;
 }
 /* #endregion */
 
@@ -339,7 +204,7 @@ div.frame {
 }
 
 #article-list>.article-list-row{
-    border: 2px solid #C8EDF4;
+    border: 2px solid #D6666F;
     border-radius: 20px;
     margin-top:5px;
 }
@@ -382,11 +247,6 @@ div.frame {
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user:before {
     content: "거북단";
-    cursor: text;
-    font-family: 'Nanum Gothic', sans-serif;
-}
-#board-info #viewers-area .fa-user:hover:before {
-    content: "겨북단";
     cursor: text;
     font-family: 'Nanum Gothic', sans-serif;
 }
