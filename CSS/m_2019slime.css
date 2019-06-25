@@ -92,6 +92,7 @@ img[title="Moderator"] {
 }
 
 #article-list #article-list-category > a.nav-link:first-child {
+    padding-top: 10px;
     border-top: 3px solid #d6666f;
 }
 #article-list #article-list-category > a.nav-link.active:first-child {
