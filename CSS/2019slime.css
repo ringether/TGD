@@ -199,6 +199,10 @@ div.frame {
     box-shadow: 0 4px 0 #F1A399;
 }
 
+#article-list>.article-list-row:nth-of-type(2){
+    border: 2px solid #F1A399;
+}
+
 #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-checkbox {
     border:0;
 }
@@ -215,7 +219,7 @@ div.frame {
     color: #F9B723;
 }
 #article-list>.article-list-row.notice{
-    background: #F4FDFE;
+    background: #FFE7E3;
     color: #000000;
     font-weight: bold;
 }
@@ -227,14 +231,14 @@ div.frame {
     background-color: #FFEE;
 }
 #article-list>.article-list-row:hover {
-    background-color:#F4FDFE;
+    background-color:#FFE7E3;
 }
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: #F1A399;
 }
 #article-list>.article-list-row:hover>.item>.list-header.v0>span {
-    background: #F4FDFE;
-    color: #F4FDFE;
+    background: #FFE7E3;
+    color: #FFE7E3;
 }
 #article-list>.article-list-row>.item>.list-title,
 #article-list>.article-list-row>.item>.list-title>.list-category,
@@ -297,7 +301,7 @@ div.frame {
 .btn-primary:active,
 .btn-primary:focus, 
 .btn-primary:hover {
-    background-color: #F4FDFE!important;
+    background-color: #FFE7E3!important;
 }
 
 #article-list #article-list-menu>.btn.best {
