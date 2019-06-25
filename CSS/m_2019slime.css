@@ -6,39 +6,62 @@
 **
 ** 댕게더는 트게더의 CSS 운영정책을 존중합니다.
 ** 혹여나, 위반되는 항목이 있는 경우 댕게더에 알려주세요.
-** 다홍 #D6666F
-** 연핑크 #F1A399
-** 노랑 #F7DBB7
 */
 
-/* #region 공통 */
+/* #region 헤더 */
 @font-face { font-family: 'Dovemayo-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
-html {
-    height: auto;
-    background: #F7DBB7;
+header {
+    border-bottom: 3px solid #F1A399;
+    background: #FFCCC5;
+}
+
+header > #header-area > a > h1 {
+    width: 120px;
+    background: url(https://ringether.github.io/TGD/img/rohboksoon/logo.png) no-repeat;
+    background-size: 120px 32px;
+}
+
+header > #header-area > #header-bar-link {
+    color: #F1A399;
+}
+
+header > #header-area > #header-search-link {
+    color: #F1A399;
+}
+
+#header-top-notice strong.notice-badge {
+    background: #F1A399;
 }
 
 body {
-    background: transparent;
     font-family: 'Dovemayo-Medium', sans-serif;
 }
 
-/* ::selection{
-    background: #418F9E;
-    color: #FFF;
+#board-info {
+    background: #D6666F;
+    border-top: 3px solid #F1A399;
 }
 
-::-moz-selection {
-    background: #418F9E;
-    color: #FFF;
-} */
-
-header #right-search-form>input[type=text] {
-    border-color: #F1A399;
-    border-radius: 20px;
+#board-info > h1 > #board-info-profile-img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top:-30px;
+    background-size: 80px;
+    border: 3px solid #F1A399;
+    border-radius: 50%;
 }
 
-header #right-search-form>#right-search-btn {
+#board-info>h1>a {
+    margin-left:65px;
+}
+
+#viewers-area {
+    color: #F1A399;
+}
+
+#board-info > a.board-right-menu {
+    border: 0;
     color: #F1A399;
 }
 
@@ -52,114 +75,8 @@ img[title="Moderator"] {
     padding: 1px 0.6px 1px 0;
 }
 
-#article-list>.article-list-row .fa-star {
+#article-list>.article-list-row .fa-star:before {
     animation: rotate 1.5s infinite;
-}
-
-#article-list #boardSearchForm {
-    margin-bottom:1em;
-}
-/* #endregion */
-
-/* #region 헤더 */
-header{
-    padding: 1em 0;
-}
-header .row > div:nth-child(1) > a {
-    background-repeat: no-repeat;
-    display: block;
-    width: 200px;
-    height: 50px;
-    /* background-image:url(https://ringether.github.io/TGD/img/rohboksoon/logo.png); */
-}
-
-header .row > div:nth-child(1) > a img {
-    opacity: 0;
-}
-
-header #header-bar > .row {
-    border: 2px solid #F1A399;
-    border-radius: 20px;
-    box-shadow: 0 4px 0 #F1A399;
-}
-
-header #header-bar #header-top-notice strong.notice-badge {
-    background: #F1A399;
-}
-/* #endregion */
-
-/* #region 상단 */
-#main #main-content>div.frame {
-    background: 0;
-    border: 0;
-}
-
-div.frame {
-    background: #FFF;
-}
-
-#board-info {
-    display: flex;
-    height: 50px;
-    padding: 1em;
-    border-radius: 10px;
-    background: #FFFFFF;
-    align-items: center;
-    justify-content: center;
-}
-
-#board-info #board-info-bottom {
-    flex: auto;
-    text-align: right;
-}
-
-#board-info #board-info-bottom a{
-    border: 0;
-    color: #D6666F;
-}
-
-#board-info h1 {
-    border-bottom: 0;
-}
-
-#board-info #board-info-profile-img {
-    width: 75px;
-    height: 75px;
-    position: absolute;
-    top: -15px;
-    left: 5px;
-    border: 3px solid #F1A399;
-    border-radius: 50%;
-}
-
-#board-info h1, #board-info #board-info-bottom {
-    margin-left: 60px;
-    padding: 0;
-}
-
-.badge {
-    margin: 2px;
-}
-/* #endregion */
-
-/* #region 좌측 메뉴 */
-#main .menu-wrapper {
-    border: 0;
-}
-
-#main .menu-wrapper>a>em,
-#main .menu-wrapper>a>i.fa.fa-square
-{
-    color: #D6666F;
-}
-
-#main .menu-wrapper>.header {
-    background: #F1A399;
-    border-radius: 10px 10px 0 0;
-}
-
-#main .menu-wrapper .spacer {
-    background: transparent;
 }
 /* #endregion */
 
@@ -167,48 +84,30 @@ div.frame {
 #article-list #article-list-category {
     border: none;
     background: #FFFFFF;
-    border-radius: 10px;
-    margin: 5px;
 }
 #article-list #article-list-category > a {
     margin-top:1px;
     background: #FFFFFF;
     transition-duration: .7s;
 }
-#article-list #article-list-category > a.nav-link:first-child {
+/* #article-list #article-list-category > a.nav-link:first-child {
     border-top: 3px solid #F1A399;
 }
 #article-list #article-list-category > a.nav-link.active:first-child {
-    background: #F1A399;
+    background: #FFCCC5;
 }
 #article-list #article-list-category > a.active > .fa-home, #article-list #article-list-category>a.active:hover > .fa-home {
     color: #FFFFFF;
-}
+} */
 /* #endregion */
 
 /* #region 목록 */
 #article-list {
     background: #FFF;
-    padding: 5px 10px;
-    border: 2px solid #F1A399;
-    border-radius: 10px;
-    box-shadow: 0 4px 0 #F1A399;
 }
-
-#article-list>.article-list-row:nth-of-type(2){
-    border: 2px solid #F1A399;
-}
-
-#article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-checkbox {
-    border:0;
-}
-
 #article-list>.article-list-row{
-    border: 2px solid #D6666F;
-    border-radius: 20px;
-    margin-top:5px;
+    border-bottom: 2px solid #D6666F;
 }
-
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
 #article-list > .article-list-row > .item > .list-title > small.comment-count 
 {
@@ -229,36 +128,18 @@ div.frame {
 #article-list>.article-list-row:hover {
     background-color:#FFF7F6;
 }
+#article-list>.article-list-row>.item>.list-header {
+    border: none;
+}
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: #F1A399;
+}
+#article-list>.article-list-row>.item>.list-time {
+    border: none;
 }
 #article-list>.article-list-row:hover>.item>.list-header.v0>span {
     background: #FFF7F6;
     color: #FFF7F6;
-}
-#article-list>.article-list-row>.item>.list-title,
-#article-list>.article-list-row>.item>.list-title>.list-category,
-#article-list>.article-list-row>.item>.list-title>.list-writer,
-#article-list>.article-list-row>.item>.list-time {
-    border: 0;
-}
-/* #endregion */
-
-/* #region 뷰어 */
-#board-info #viewers-area .fa-user:before {
-    content: "";
-    cursor: text;
-    font-family: 'Dovemayo-Medium', sans-serif;
-}
-
-#board-info #viewers-area {
-    color: #F1A399;
-}
-
-#board-info #viewers-area #viewers:after { 
-    content: "명"; 
-    cursor : text;
-    font-family: 'Dovemayo-Medium', sans-serif;
 }
 /* #endregion */
 
@@ -282,8 +163,8 @@ div.frame {
 .pagination>li>a:hover,
 .pagination>li>span:focus,
 .pagination>li>span:hover {
-    background-color: #FFCCC5;
-    border-color: #FFCCC5;
+    background-color: #D6666F;
+    border-color: #D6666F;
     transition-duration: .5s;
 }
 /* #endregion */
@@ -309,20 +190,13 @@ div.frame {
 }
 /* #endregion */
 
+/* #region 뷰어 */
+#board-info #viewers-area {
+    color: #F1A399;
+}
+/* #endregion */
+
 /* #region 게시글 */
-#article-info {
-    margin-top: 15px;
-    background: #FFF;
-}
-
-#article-content-wrapper {
-    background: #FFF;
-}
-
-#article-reply-area {
-    background: #FFF;
-}
-
 #article-content-wrapper>.header {
     background: #FFEFDB;
     border-top: 2px solid #F1A399;
@@ -350,49 +224,6 @@ div.frame {
  {
     color: #F1A399;
 }
-
-#comment-write-form-area {
-    padding: 0 1em 1em;
-}
-#article-neighbor-list {
-    background:#FFF;
-}
-/* #endregion */
-
-/* #region 글쓰기 */
-#articleWriteForm {
-    padding: 20px;
-    background: #FFF;
-    border-radius: 0 0 6px 6px;
-}
-
-div.frame > h3 {
-    background: #F1A399;
-    color: #FFF;
-    padding: 10px;
-    border-radius: 6px 6px 0 0;
-}
-/* #endregion */
-
-/* #region 애니메이션 */
-/*
-@keyframes cherryblossom {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
-@-moz-keyframes cherryblossom {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
-@-webkit-keyframes cherryblossom {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
-@-ms-keyframes cherryblossom {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
-*/
 
 @keyframes pulse {
     0% { box-shadow: 0 0 0 0 rgba(255,141,141, 0.4); }
