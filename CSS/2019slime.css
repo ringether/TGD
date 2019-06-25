@@ -250,9 +250,9 @@ div.frame {
 
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user:before {
-    content: "거북단";
+    content: "";
     cursor: text;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Dovemayo-Medium', sans-serif;
 }
 
 #board-info #viewers-area {
@@ -262,6 +262,7 @@ div.frame {
 #board-info #viewers-area #viewers:after { 
     content: "명"; 
     cursor : text;
+    font-family: 'Dovemayo-Medium', sans-serif;
 }
 /* #endregion */
 
