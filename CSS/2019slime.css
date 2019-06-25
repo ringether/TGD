@@ -176,7 +176,7 @@ div.frame {
     transition-duration: .7s;
 }
 #article-list #article-list-category > a.nav-link:first-child {
-    border-top: 3px solid #F1A399;
+    border-top: 2px solid #d6666f;
 }
 #article-list #article-list-category > a.nav-link.active:first-child {
     background: #F1A399;
