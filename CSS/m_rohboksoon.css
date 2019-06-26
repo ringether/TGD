@@ -1,12 +1,3 @@
-/*
-** Github : http://github.com/ringether/TGD/
-** Copyright(c)2018 All rights reserved by rohboksoon
-**
-** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
-**
-** 노게더는 트게더의 CSS 운영정책을 존중합니다.
-** 혹여나, 위반되는 항목이 있는 경우 노게더에 알려주세요.
-*/
 
 /* #region 헤더 */
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
@@ -37,18 +28,6 @@ body {
     letter-spacing: -0.05em !important;
     font-family: 'Nanum Gothic', sans-serif;
     
-}
-
-body:after{
-    content: " ";
-    position: fixed;
-    display: block;
-    background: url(https://ringether.github.io/TGD/img/rohboksoon/dust.png);
-    background-size: contain;
-    width: 100%;
-    height: 200px;
-    bottom: 0;
-    z-index: -1;
 }
 
 #board-info {
