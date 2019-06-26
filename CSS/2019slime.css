@@ -23,15 +23,15 @@ body {
     font-family: 'Dovemayo-Medium', sans-serif;
 }
 
-/* ::selection{
-    background: #418F9E;
+::selection{
+    background: #D6666F;
     color: #FFF;
 }
 
 ::-moz-selection {
-    background: #418F9E;
+    background: #D6666F;
     color: #FFF;
-} */
+}
 
 header #right-search-form>input[type=text] {
     border-color: #F1A399;
@@ -70,7 +70,7 @@ header .row > div:nth-child(1) > a {
     display: block;
     width: 200px;
     height: 50px;
-    /* background-image:url(https://ringether.github.io/TGD/img/rohboksoon/logo.png); */
+    background-image:url(https://ringether.github.io/TGD/img/2019slime/logo.png);
 }
 
 header .row > div:nth-child(1) > a img {
@@ -176,7 +176,8 @@ div.frame {
     transition-duration: .7s;
 }
 #article-list #article-list-category > a.nav-link:first-child {
-    border-top: 3px solid #F1A399;
+    padding-top: 10px;
+    border-top: 2px solid #d6666f;
 }
 #article-list #article-list-category > a.nav-link.active:first-child {
     background: #F1A399;
@@ -184,6 +185,43 @@ div.frame {
 #article-list #article-list-category > a.active > .fa-home, #article-list #article-list-category>a.active:hover > .fa-home {
     color: #FFFFFF;
 }
+
+#article-list #article-list-category>a[href*="?category=26070193"] {
+    border-top: 3px solid #ffaf43;
+}
+#article-list #article-list-category>a[href*="?category=26070193"]:hover, 
+#article-list #article-list-category>a.active[href*="?category=26070193"] {
+    background: #ffaf43;
+    color: #FFFFFF!important;
+}
+
+#article-list #article-list-category>a[href*="?category=26070217"] {
+    border-top: 3px solid #c894e6;
+}
+#article-list #article-list-category>a[href*="?category=26070217"]:hover, 
+#article-list #article-list-category>a.active[href*="?category=26070217"] {
+    background: #c894e6;
+    color: #FFFFFF!important;
+}
+
+#article-list #article-list-category>a[href*="?category=26070247"] {
+    border-top: 3px solid #8fa3f0;
+}
+#article-list #article-list-category>a[href*="?category=26070247"]:hover, 
+#article-list #article-list-category>a.active[href*="?category=26070247"] {
+    background: #8fa3f0;
+    color: #FFFFFF!important;
+}
+
+#article-list #article-list-category>a[href*="?category=26070285"] {
+    border-top: 3px solid #3fd470;
+}
+#article-list #article-list-category>a[href*="?category=26070285"]:hover, 
+#article-list #article-list-category>a.active[href*="?category=26070285"] {
+    background: #3fd470;
+    color: #FFFFFF!important;
+}
+
 /* #endregion */
 
 /* #region 목록 */
@@ -212,7 +250,7 @@ div.frame {
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
 #article-list > .article-list-row > .item > .list-title > small.comment-count 
 {
-    color: #F9B723;
+    color: #F1A399;
 }
 #article-list>.article-list-row.notice{
     background: #FFF7F6;
