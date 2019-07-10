@@ -371,12 +371,12 @@ div.frame {
 
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user:before {
-    content: "거북단";
+    content: "🔥천불거북단🔥";
     cursor: text;
     font-family: 'Nanum Gothic', sans-serif;
 }
 #board-info #viewers-area .fa-user:hover:before {
-    content: "겨북단";
+    content: "💦겨북단💦";
     cursor: text;
     font-family: 'Nanum Gothic', sans-serif;
 }
