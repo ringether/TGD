@@ -23,15 +23,15 @@ body {
     font-family: 'Dovemayo-Medium', sans-serif;
 }
 
-/* ::selection{
-    background: #418F9E;
+::selection{
+    background: #D6666F;
     color: #FFF;
 }
 
 ::-moz-selection {
-    background: #418F9E;
+    background: #D6666F;
     color: #FFF;
-} */
+}
 
 header #right-search-form>input[type=text] {
     border-color: #F1A399;
@@ -70,7 +70,7 @@ header .row > div:nth-child(1) > a {
     display: block;
     width: 200px;
     height: 50px;
-    /* background-image:url(https://ringether.github.io/TGD/img/rohboksoon/logo.png); */
+    background-image:url(https://ringether.github.io/TGD/img/2019slime/logo.png);
 }
 
 header .row > div:nth-child(1) > a img {

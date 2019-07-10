@@ -15,9 +15,19 @@ header {
     background: #FFCCC5;
 }
 
+::selection{
+    background: #D6666F;
+    color: #FFF;
+}
+
+::-moz-selection {
+    background: #D6666F;
+    color: #FFF;
+}
+
 header > #header-area > a > h1 {
     width: 120px;
-    /* background: url(https://ringether.github.io/TGD/img/rohboksoon/logo.png) no-repeat; */
+    background: url(https://ringether.github.io/TGD/img/2019slime/logo.png) no-repeat;
     background-size: 120px 32px;
 }
 
