@@ -1,5 +1,3 @@
-
-
 /* #region 공통 */
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html {
@@ -373,7 +371,7 @@ div.frame {
 
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user:before {
-    content: "돌거북단";
+    content: "거북단";
     cursor: text;
     font-family: 'Nanum Gothic', sans-serif;
 }
