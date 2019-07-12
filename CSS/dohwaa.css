@@ -12,15 +12,17 @@
 */
 
 /* #region 공통 */
-@font-face { font-family: 'Dovemayo-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'KOMACON'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); font-weight: normal; font-style: normal; }
+
 html {
     height: auto;
-    background: #FFF7D4;
+    background-color: #FFF7D4;
+    background-image: url(https://ringether.github.io/TGD/img/dohwaa/bg.png);
 }
 
 body {
     background: transparent;
-    font-family: 'Dovemayo-Medium', sans-serif;
+    font-family: 'KOMACON', sans-serif;
 }
 
 ::selection{
@@ -325,7 +327,7 @@ div.frame {
 #board-info #viewers-area .fa-user:before {
     content: "빙구단";
     cursor: text;
-    font-family: 'Dovemayo-Medium', sans-serif;
+    font-family: 'KOMACON', sans-serif;
     transition: all 0.5s;
 }
 
@@ -340,7 +342,7 @@ div.frame {
 #board-info #viewers-area #viewers:after { 
     content: "명"; 
     cursor : text;
-    font-family: 'Dovemayo-Medium', sans-serif;
+    font-family: 'KOMACON', sans-serif;
     transition: all 0.5s;
 }
 /* #endregion */
