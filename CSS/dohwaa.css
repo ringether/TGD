@@ -386,6 +386,7 @@ div.frame {
 .btn-primary:focus, 
 .btn-primary:hover {
     background-color: #D1B5C4!important;
+    color: #FFFFFF!important;
 }
 
 #article-list #article-list-menu>.btn.best {
@@ -411,7 +412,7 @@ div.frame {
 }
 
 #article-content-wrapper>.header {
-    background: #FFEFDB;
+    background: #D1B5C4;
     border-top: 2px solid #B2889E;
 }
 #article-reply-area > .header h5 {
