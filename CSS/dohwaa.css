@@ -294,7 +294,7 @@ div.frame {
     color: #B2889E;
 }
 #article-list>.article-list-row.notice{
-    background: #FFDEDD;
+    background: #FFF2F1;
     color: #000000;
     font-weight: bold;
 }
@@ -306,14 +306,14 @@ div.frame {
     background-color: #FFEE;
 }
 #article-list>.article-list-row:hover {
-    background-color:#FFDEDD;
+    background-color:#FFF2F1;
 }
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: #B2889E;
 }
 #article-list>.article-list-row:hover>.item>.list-header.v0>span {
-    background: #FFDEDD;
-    color: #FFDEDD;
+    background: #FFF2F1;
+    color: #FFF2F1;
 }
 #article-list>.article-list-row>.item>.list-title,
 #article-list>.article-list-row>.item>.list-title>.list-category,
@@ -370,6 +370,7 @@ div.frame {
 .pagination>li>span:hover {
     background-color: #D1B5C4;
     border-color: #D1B5C4;
+    color: #FFFFFF;
     transition-duration: .5s;
 }
 /* #endregion */
@@ -378,13 +379,13 @@ div.frame {
 .btn-primary {
     border-radius:15px!important;
     background-color: #FFFFFF !important;
-    border-color: #D1B5C4!important;
+    border-color: #B2889E!important;
     color: #FEBF64!important;
 }
 .btn-primary:active,
 .btn-primary:focus, 
 .btn-primary:hover {
-    background-color: #FFDEDD!important;
+    background-color: #D1B5C4!important;
 }
 
 #article-list #article-list-menu>.btn.best {
