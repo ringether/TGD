@@ -6,8 +6,8 @@
 **
 ** 도게더는 트게더의 CSS 운영정책을 존중합니다.
 ** 혹여나, 위반되는 항목이 있는 경우 댕게더에 알려주세요.
-** 보라 #97617D
-** 보라 #B2889E
+** 진보라 #97617D
+** 연보라 #B2889E
 ** 노랑 #FFF7D4
 */
 
@@ -70,7 +70,7 @@ header .row > div:nth-child(1) > a {
     display: block;
     width: 200px;
     height: 50px;
-    background-image:url(https://ringether.github.io/TGD/img/2019slime/logo.png);
+    /* background-image:url(https://ringether.github.io/TGD/img/2019slime/logo.png); */
 }
 
 header .row > div:nth-child(1) > a img {
@@ -253,7 +253,7 @@ div.frame {
     color: #B2889E;
 }
 #article-list>.article-list-row.notice{
-    background: #FFF7F6;
+    background: #E8B2B0;
     color: #000000;
     font-weight: bold;
 }
@@ -261,18 +261,18 @@ div.frame {
     background: #FFFFFF;
 }
 #article-list>.article-list-row.hot {
-    border-color:#F9B723;
+    border-color:#FEBF64;
     background-color: #FFEE;
 }
 #article-list>.article-list-row:hover {
-    background-color:#FFF7F6;
+    background-color:#E8B2B0;
 }
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: #B2889E;
 }
 #article-list>.article-list-row:hover>.item>.list-header.v0>span {
-    background: #FFF7F6;
-    color: #FFF7F6;
+    background: #E8B2B0;
+    color: #E8B2B0;
 }
 #article-list>.article-list-row>.item>.list-title,
 #article-list>.article-list-row>.item>.list-title>.list-category,
@@ -284,9 +284,14 @@ div.frame {
 
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user:before {
-    content: "";
+    content: "빙구단";
     cursor: text;
     font-family: 'Dovemayo-Medium', sans-serif;
+    transition: all 0.5s;
+}
+
+#board-info #viewers-area .fa-user:before:hover {
+    content: "마늘단";
 }
 
 #board-info #viewers-area {
@@ -297,6 +302,7 @@ div.frame {
     content: "명"; 
     cursor : text;
     font-family: 'Dovemayo-Medium', sans-serif;
+    transition: all 0.5s;
 }
 /* #endregion */
 
@@ -313,15 +319,15 @@ div.frame {
 
 .pagination>li>a,
 .pagination>li>span {
-    color:#F9B723;
+    color:#FEBF64;
     transition-duration: .5s;
 }
 .pagination>li>a:focus,
 .pagination>li>a:hover,
 .pagination>li>span:focus,
 .pagination>li>span:hover {
-    background-color: #FFCCC5;
-    border-color: #FFCCC5;
+    background-color: #D1B5C4;
+    border-color: #D1B5C4;
     transition-duration: .5s;
 }
 /* #endregion */
@@ -330,13 +336,13 @@ div.frame {
 .btn-primary {
     border-radius:15px!important;
     background-color: #FFFFFF !important;
-    border-color: #FFCCC5!important;
-    color: #F9B723!important;
+    border-color: #D1B5C4!important;
+    color: #FEBF64!important;
 }
 .btn-primary:active,
 .btn-primary:focus, 
 .btn-primary:hover {
-    background-color: #FFF7F6!important;
+    background-color: #E8B2B0!important;
 }
 
 #article-list #article-list-menu>.btn.best {
