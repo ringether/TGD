@@ -30,7 +30,7 @@ header {
 
 header > #header-area > a > h1 {
     width: 120px;
-    /* background: url(https://ringether.github.io/TGD/img/2019slime/logo.png) no-repeat; */
+    background: url(https://ringether.github.io/TGD/img/dohwaa/logo.png) no-repeat;
     background-size: 120px 32px;
 }
 
@@ -204,7 +204,7 @@ img[title="Moderator"] {
     color: #B2889E;
 }
 #article-list>.article-list-row.notice{
-    background: #FFF7F6;
+    background: #F2EBEF;
     color: #000000;
     font-weight: bold;
 }
@@ -216,7 +216,7 @@ img[title="Moderator"] {
     background-color: #FFEE;
 }
 #article-list>.article-list-row:hover {
-    background-color:#FFF7F6;
+    background-color:#F2EBEF;
 }
 #article-list>.article-list-row>.item>.list-header {
     border: none;
@@ -228,8 +228,8 @@ img[title="Moderator"] {
     border: none;
 }
 #article-list>.article-list-row:hover>.item>.list-header.v0>span {
-    background: #FFF7F6;
-    color: #FFF7F6;
+    background: #F2EBEF;
+    color: #F2EBEF;
 }
 /* #endregion */
 

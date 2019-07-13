@@ -72,7 +72,7 @@ header .row > div:nth-child(1) > a {
     display: block;
     width: 200px;
     height: 50px;
-    /* background-image:url(https://ringether.github.io/TGD/img/2019slime/logo.png); */
+    background-image:url(https://ringether.github.io/TGD/img/dohwaa/logo.png);
 }
 
 header .row > div:nth-child(1) > a img {
@@ -293,7 +293,7 @@ div.frame {
     color: #B2889E;
 }
 #article-list>.article-list-row.notice{
-    background: #FFF2F1;
+    background: #F2EBEF;
     color: #000000;
     font-weight: bold;
 }
@@ -305,14 +305,14 @@ div.frame {
     background-color: #FFEE;
 }
 #article-list>.article-list-row:hover {
-    background-color:#FFF2F1;
+    background-color:#F2EBEF;
 }
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: #B2889E;
 }
 #article-list>.article-list-row:hover>.item>.list-header.v0>span {
-    background: #FFF2F1;
-    color: #FFF2F1;
+    background: #F2EBEF;
+    color: #F2EBEF;
 }
 #article-list>.article-list-row>.item>.list-title,
 #article-list>.article-list-row>.item>.list-title>.list-category,
