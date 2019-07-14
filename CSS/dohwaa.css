@@ -330,7 +330,7 @@ div.frame {
     transition: all 0.5s;
 }
 
-#board-info #viewers-area .fa-user:before:hover {
+#board-info #viewers-area .fa-user:hover:before {
     content: "마늘단";
 }
 
