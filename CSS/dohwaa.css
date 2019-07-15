@@ -323,6 +323,10 @@ div.frame {
 /* #endregion */
 
 /* #region 뷰어 */
+#board-info #viewers-area .fa-user{
+    display: flex;
+    align-items: center;
+}
 #board-info #viewers-area .fa-user:before {
     content: "";
     display: block;
@@ -353,6 +357,10 @@ div.frame {
     display: flex;
     align-items: center;
     color: #B2889E;
+}
+
+#board-info #viewers-area #viewers{
+    margin-left: 10px;
 }
 
 #board-info #viewers-area #viewers:after { 
