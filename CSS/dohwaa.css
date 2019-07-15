@@ -326,6 +326,7 @@ div.frame {
 #board-info #viewers-area .fa-user{
     display: flex;
     align-items: center;
+    margin-left: 10px;
 }
 #board-info #viewers-area .fa-user:before {
     content: "";
@@ -341,15 +342,18 @@ div.frame {
 #board-info #viewers-area .fa-user:after{
     content: "빙구단";
     font-family: 'KOMACON', sans-serif;
+    margin-left: 5px;
     transition: all 0.5s;
 }
 
 #board-info #viewers-area .fa-user:hover:before {
     background: url(https://static-cdn.jtvnw.net/badges/v1/5b6c7184-cacc-421c-b51b-685cf31c4fc0/3) no-repeat center;
+    background-size: cover;
 }
 
 #board-info #viewers-area .fa-user:hover:after {
     content: "마늘단";
+    margin-left: 5px;
 }
 
 #board-info #viewers-area {
@@ -360,7 +364,7 @@ div.frame {
 }
 
 #board-info #viewers-area #viewers{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 #board-info #viewers-area #viewers:after { 
