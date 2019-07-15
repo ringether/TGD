@@ -324,17 +324,34 @@ div.frame {
 
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user:before {
+    content: "";
+    display: block;
+    background: url(https://static-cdn.jtvnw.net/emotcons/v1/300113685/3.0) no-repeat center;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    font-family: 'KOMACON', sans-serif;
+    transition: all 0.5s;
+}
+
+#board-info #viewers-area .fa-user:after{
     content: "빙구단";
-    cursor: text;
     font-family: 'KOMACON', sans-serif;
     transition: all 0.5s;
 }
 
 #board-info #viewers-area .fa-user:hover:before {
+    background: url(https://static-cdn.jtvnw.net/badges/v1/5b6c7184-cacc-421c-b51b-685cf31c4fc0/3) no-repeat center;
+}
+
+#board-info #viewers-area .fa-user:hover:after {
     content: "마늘단";
 }
 
 #board-info #viewers-area {
+    float: right;
+    display: flex;
+    align-items: center;
     color: #B2889E;
 }
 
