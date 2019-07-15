@@ -285,6 +285,10 @@ img[title="Moderator"] {
 #board-info #viewers-area {
     color: #B2889E;
 }
+
+.trc_related_cotainer{
+    background: #fff;
+}
 /* #endregion */
 
 /* #region 게시글 */

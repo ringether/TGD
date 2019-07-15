@@ -344,6 +344,10 @@ div.frame {
     font-family: 'KOMACON', sans-serif;
     transition: all 0.5s;
 }
+
+.trc_related_cotainer{
+    background: #fff;
+}
 /* #endregion */
 
 /* #region 페이징 */
