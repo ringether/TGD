@@ -340,7 +340,7 @@ div.frame {
 }
 
 #board-info #viewers-area .fa-user:after{
-    content: "빙구단";
+    content: "넹구단";
     font-family: 'KOMACON', sans-serif;
     margin-left: 5px;
     transition: all 0.5s;
