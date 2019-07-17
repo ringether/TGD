@@ -293,7 +293,7 @@ img[title="Moderator"] {
 
 /* #region 게시글 */
 #article-content-wrapper>.header {
-    background: #FFEFDB;
+    background: #E7DCE2;
     border-top: 2px solid #B2889E;
 }
 #article-reply-area > .header h5 {
@@ -309,7 +309,7 @@ img[title="Moderator"] {
 #article-reply-area #reply-best-area .reply>.reply-header {
     border-bottom: 1px solid #B2889E;
     border-radius: 10px 10px 0 0;
-    background: #FFEFDB;
+    background: #E7DCE2;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
