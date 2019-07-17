@@ -48,7 +48,7 @@ img[title="Moderator"] {
     display: none;
 }
 #article-list>.article-list-row .fa-heart:before {
-    content: "❤️";
+    content: "??";
     animation: pulse 1.5s infinite;
     border-radius: 50%;
     padding: 1px 0.6px 1px 0;
