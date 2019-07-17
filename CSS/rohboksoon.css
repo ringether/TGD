@@ -1,4 +1,4 @@
-/* #region 공통 */
+/* #region ?? */
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html {
     height: auto;
@@ -63,7 +63,7 @@ img[title="Moderator"] {
 }
 /* #endregion */
 
-/* #region 헤더 */
+/* #region ?? */
 header{
     padding: 1em 0;
 }
@@ -90,7 +90,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 /* #endregion */
 
-/* #region 상단 */
+/* #region ?? */
 #main #main-content>div.frame {
     background: 0;
     border: 0;
@@ -147,7 +147,7 @@ div.frame {
 }
 /* #endregion */
 
-/* #region 좌측 메뉴 */
+/* #region ???? */
 #main .menu-wrapper {
     border: 0;
 }
@@ -168,7 +168,7 @@ div.frame {
 }
 /* #endregion */
 
-/* #region 카테고리 */
+/* #region ???? */
 #article-list #article-list-category {
     border: none;
     background: #FFFFFF;
@@ -326,7 +326,7 @@ div.frame {
 }
 /* #endregion */
 
-/* #region 목록 */
+/* #region ?? */
 #article-list {
     background: #FFF;
     padding: 5px 10px;
@@ -382,12 +382,12 @@ div.frame {
 
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user:before {
-    content: "🔥천불거북단🔥";
+    content: "?????????";
     cursor: text;
     font-family: 'Nanum Gothic', sans-serif;
 }
 #board-info #viewers-area .fa-user:hover:before {
-    content: "💦겨북단💦";
+    content: "?????????";
     cursor: text;
     font-family: 'Nanum Gothic', sans-serif;
 }
@@ -397,12 +397,12 @@ div.frame {
 }
 
 #board-info #viewers-area #viewers:after { 
-    content: "명"; 
+    content: "?"; 
     cursor : text;
 }
 /* #endregion */
 
-/* #region 페이징 */
+/* #region ??? */
 .pagination > .active > a, 
 .pagination > .active > a:focus, 
 .pagination > .active > a:hover, 
