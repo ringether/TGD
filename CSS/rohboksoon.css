@@ -572,3 +572,18 @@ div.frame > h3 {
     to { transform: rotate(0deg); }
 }
 /* #endregion */
+
+/* #region emoticon */
+.fr-popup.emoticons{
+    height: 300px;
+}
+.fr-popup .fr-emoticon{
+    width: 35px;
+}
+.fr-popup .fr-emoticon img{
+    height: 35px;
+}
+span.fr-command.fr-emoticon[data-param1=JKanStyle] > img {
+    content: url(https://upload.tgd.kr/20190819/a2e1122….png);
+}
+/* #endregion */
