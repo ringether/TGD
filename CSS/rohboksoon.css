@@ -581,9 +581,16 @@ div.frame > h3 {
     width: 35px;
 }
 .fr-popup .fr-emoticon img{
-    height: 35px;
+    width: 35px!important;
+    height: 35px!important;
 }
-span.fr-command.fr-emoticon[data-param1=JKanStyle] > img {
+span.fr-emoticon[data-param1=JKanStyle] > img,
+span.fr-emoticon[alt=JKanStyle] > img, {
     content: url(https://ringether.github.io/TGD/img/rohboksoon/appology.png);
+}
+
+span.fr-emoticon[alt=JKanStyle] > img{
+    width: 80px;
+    height: 80px;
 }
 /* #endregion */
