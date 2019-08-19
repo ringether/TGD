@@ -1,4 +1,4 @@
-/* #region ?? */
+/* #region common */
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html {
     height: auto;
@@ -48,7 +48,7 @@ img[title="Moderator"] {
     display: none;
 }
 #article-list>.article-list-row .fa-heart:before {
-    content: "??";
+    content: "❤️";
     animation: pulse 1.5s infinite;
     border-radius: 50%;
     padding: 1px 0.6px 1px 0;
@@ -63,7 +63,7 @@ img[title="Moderator"] {
 }
 /* #endregion */
 
-/* #region ?? */
+/* #region header */
 header{
     padding: 1em 0;
 }
@@ -90,7 +90,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 /* #endregion */
 
-/* #region ?? */
+/* #region main */
 #main #main-content>div.frame {
     background: 0;
     border: 0;
@@ -147,7 +147,7 @@ div.frame {
 }
 /* #endregion */
 
-/* #region ???? */
+/* #region menu */
 #main .menu-wrapper {
     border: 0;
 }
@@ -168,7 +168,7 @@ div.frame {
 }
 /* #endregion */
 
-/* #region ???? */
+/* #region article */
 #article-list #article-list-category {
     border: none;
     background: #FFFFFF;
@@ -382,12 +382,12 @@ div.frame {
 
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user:before {
-    content: "?????????";
+    content: "🔥천불거북도토리단🔥";
     cursor: text;
     font-family: 'Nanum Gothic', sans-serif;
 }
 #board-info #viewers-area .fa-user:hover:before {
-    content: "?????????";
+    content: "💦천불겨북도토리단💦";
     cursor: text;
     font-family: 'Nanum Gothic', sans-serif;
 }
@@ -397,12 +397,12 @@ div.frame {
 }
 
 #board-info #viewers-area #viewers:after { 
-    content: "?"; 
+    content: "명"; 
     cursor : text;
 }
 /* #endregion */
 
-/* #region ??? */
+/* #region paging */
 .pagination > .active > a, 
 .pagination > .active > a:focus, 
 .pagination > .active > a:hover, 
@@ -584,6 +584,6 @@ div.frame > h3 {
     height: 35px;
 }
 span.fr-command.fr-emoticon[data-param1=JKanStyle] > img {
-    content: url(https://upload.tgd.kr/20190819/a2e1122….png);
+    content: url(https://ringether.github.io/TGD/img/rohboksoon/appology.png);
 }
 /* #endregion */
