@@ -337,3 +337,24 @@ img[title="Moderator"] {
     to { transform: rotate(0deg); }
 }
 /* #endregion */
+
+/* #region emoticon */
+.fr-popup.emoticons{
+    height: 300px;
+}
+.fr-popup .fr-emoticon{
+    width: 35px;
+}
+.fr-popup .fr-emoticon img{
+    width: 35px!important;
+    height: 35px!important;
+}
+span.fr-emoticon[data-param1=JKanStyle] > img,
+span.fr-emoticon > img[alt=JKanStyle] {
+    content: url(https://ringether.github.io/TGD/img/rohboksoon/appology.png);
+}
+
+span.fr-emoticon > img[alt=JKanStyle]{
+    width: 80px;
+}
+/* #endregion */
