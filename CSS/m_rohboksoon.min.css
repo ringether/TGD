@@ -1,4 +1,4 @@
-/* #region ?? */
+/* #region 헤더 */
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 header {
     border-bottom: 3px solid #69B6C4;
@@ -61,7 +61,7 @@ img[title="Moderator"] {
     display: none;
 }
 #article-list>.article-list-row .fa-heart:before {
-    content: "??";
+    content: "❤️";
     animation: pulse 1.5s infinite;
     border-radius: 50%;
     padding: 1px 0.6px 1px 0;
@@ -72,7 +72,7 @@ img[title="Moderator"] {
 }
 /* #endregion */
 
-/* #region ???? */
+/* #region 카테고리 */
 #article-list #article-list-category {
     border: none;
     background: #FFFFFF;
@@ -175,7 +175,7 @@ img[title="Moderator"] {
 }
 /* #endregion */
 
-/* #region ?? */
+/* #region 목록 */
 #article-list {
     background: #FFF;
 }
@@ -217,7 +217,7 @@ img[title="Moderator"] {
 }
 /* #endregion */
 
-/* #region ??? */
+/* #region 페이징 */
 .pagination > .active > a, 
 .pagination > .active > a:focus, 
 .pagination > .active > a:hover, 
@@ -243,7 +243,7 @@ img[title="Moderator"] {
 }
 /* #endregion */
 
-/* #region ?? */
+/* #region 버튼 */
 .btn-primary {
     border-radius:15px!important;
     background-color: #FFFFFF !important;
@@ -264,13 +264,13 @@ img[title="Moderator"] {
 }
 /* #endregion */
 
-/* #region ?? */
+/* #region 뷰어 */
 #board-info #viewers-area {
     color: #69B6C4;
 }
 /* #endregion */
 
-/* #region ??? */
+/* #region 게시글 */
 #article-content-wrapper>.header {
     background: #C8EDF4;
     border-top: 2px solid #69B6C4;
