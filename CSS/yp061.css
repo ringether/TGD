@@ -14,7 +14,8 @@
 :root{
     --BG_COLOR: #FFE4C3;
     --MAIN_COLOR: #FFCE7C;
-    --SUB_COLOR: #BEE317;
+    --USER_COLOR: #BEE317;
+    --USER_COLOR: #90AE0A;
 }
 
 /* #region 공통 */
@@ -297,7 +298,7 @@ div.frame {
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
 #article-list > .article-list-row > .item > .list-title > small.comment-count 
 {
-    color: var(--SUB_COLOR);
+    color: var(--USER_COLOR);
 }
 #article-list>.article-list-row.notice{
     background: #F4FBEA;
@@ -465,7 +466,7 @@ div.frame {
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > a,
 #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu > a
  {
-    color: var(--SUB_COLOR);
+    color: var(--USER_COLOR);
 }
 
 #comment-write-form-area {
