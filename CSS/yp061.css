@@ -14,8 +14,7 @@
 :root{
     --BG_COLOR: #FFF1E0;
     --MAIN_COLOR: #FFCE7C;
-    --SUB_COLOR: #BEE317;
-    --USER_COLOR: #90AE0A;
+    --USER_COLOR: #000;
 }
 
 /* #region 공통 */
