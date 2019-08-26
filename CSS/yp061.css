@@ -138,6 +138,7 @@ div.frame {
     left: 5px;
     border: 3px solid var(--MAIN_COLOR);
     border-radius: 50%;
+    background: #FFFFFF;
 }
 
 #board-info h1, #board-info #board-info-bottom {
