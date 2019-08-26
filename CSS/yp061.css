@@ -78,7 +78,7 @@ header .row > div:nth-child(1) > a {
     display: block;
     width: 200px;
     height: 50px;
-    background-image:url(https://ringether.github.io/TGD/img/dohwaa/logo.png);
+    /* background-image:url(https://ringether.github.io/TGD/img/dohwaa/logo.png); */
 }
 
 header .row > div:nth-child(1) > a img {
@@ -330,12 +330,10 @@ div.frame {
 
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user{
-    display: flex;
-    align-items: center;
     margin-left: 10px;
 }
 
-#board-info #viewers-area .fa-user:after{
+#board-info #viewers-area .fa-user::before{
     content: "발라당";
     font-family: 'KOMACON', sans-serif;
     margin-left: 5px;
@@ -343,8 +341,6 @@ div.frame {
 }
 
 #board-info #viewers-area {
-    float: right;
-    display: flex;
     align-items: center;
     color: var(--MAIN_COLOR);
 }
