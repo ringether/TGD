@@ -296,10 +296,10 @@ div.frame {
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span,
 #article-list > .article-list-row > .item > .list-title > small.comment-count 
 {
-    color: var(--MAIN_COLOR);
+    color: var(--SUB_COLOR);
 }
 #article-list>.article-list-row.notice{
-    background: #F2EBEF;
+    background: #F4FBEA;
     color: #000000;
     font-weight: bold;
 }
@@ -311,14 +311,14 @@ div.frame {
     background-color: #FFEE;
 }
 #article-list>.article-list-row:hover {
-    background-color:#F2EBEF;
+    background-color:#F4FBEA;
 }
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: var(--MAIN_COLOR);
 }
 #article-list>.article-list-row:hover>.item>.list-header.v0>span {
-    background: #F2EBEF;
-    color: #F2EBEF;
+    background: #F4FBEA;
+    color: #F4FBEA;
 }
 #article-list>.article-list-row>.item>.list-title,
 #article-list>.article-list-row>.item>.list-title>.list-category,
@@ -334,32 +334,12 @@ div.frame {
     align-items: center;
     margin-left: 10px;
 }
-#board-info #viewers-area .fa-user:before {
-    content: "";
-    display: block;
-    background: url(https://static-cdn.jtvnw.net/emoticons/v1/300113685/3.0) no-repeat center;
-    background-size: cover;
-    width: 28px;
-    height: 28px;
-    font-family: 'KOMACON', sans-serif;
-    transition: all 0.5s;
-}
 
 #board-info #viewers-area .fa-user:after{
-    content: "넹구단";
+    content: "발라당";
     font-family: 'KOMACON', sans-serif;
     margin-left: 5px;
     transition: all 0.5s;
-}
-
-#board-info #viewers-area .fa-user:hover:before {
-    background: url(https://static-cdn.jtvnw.net/badges/v1/5b6c7184-cacc-421c-b51b-685cf31c4fc0/3) no-repeat center;
-    background-size: cover;
-}
-
-#board-info #viewers-area .fa-user:hover:after {
-    content: "마늘단";
-    margin-left: 5px;
 }
 
 #board-info #viewers-area {
@@ -450,7 +430,7 @@ div.frame {
 }
 
 #article-content-wrapper>.header {
-    background: #E7DCE2;
+    background: #FFE9C6;
     border-top: 2px solid var(--MAIN_COLOR);
 }
 #article-reply-area > .header h5 {
@@ -466,7 +446,7 @@ div.frame {
 #article-reply-area #reply-best-area .reply>.reply-header {
     border-bottom: 1px solid var(--MAIN_COLOR);
     border-radius: 10px 10px 0 0;
-    background: #E7DCE2;
+    background: #FFE9C6;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
