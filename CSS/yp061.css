@@ -334,6 +334,16 @@ div.frame {
 }
 
 #board-info #viewers-area .fa-user::before{
+    content: "";
+    display: block;
+    background: url(https://static-cdn.jtvnw.net/badges/v1/5025ac3f-e55b-45bd-8c3b-dfe0fc8add7c/3) no-repeat center;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    font-family: 'KOMACON', sans-serif;
+    transition: all 0.5s;
+}
+#board-info #viewers-area .fa-user::after{
     content: "발라당";
     font-family: 'KOMACON', sans-serif;
     margin-left: 5px;
