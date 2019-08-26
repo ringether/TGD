@@ -330,6 +330,8 @@ div.frame {
 
 /* #region 뷰어 */
 #board-info #viewers-area .fa-user{
+    display: flex;
+    align-items: center;
     margin-left: 10px;
 }
 
@@ -351,6 +353,8 @@ div.frame {
 }
 
 #board-info #viewers-area {
+    float: right;
+    display: flex;
     align-items: center;
     color: var(--MAIN_COLOR);
 }
