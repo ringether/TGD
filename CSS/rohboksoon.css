@@ -587,12 +587,45 @@ div.frame > h3 {
     width: 35px!important;
     height: 35px!important;
 }
+
+/* emoticon1 */
 span.fr-emoticon[data-param1=JKanStyle] > img,
 span.fr-emoticon > img[alt=JKanStyle] {
-    content: url(https://ringether.github.io/TGD/img/rohboksoon/appology.png);
+    content: url(https://ringether.github.io/TGD/img/rohboksoon/emoticon1.png);
 }
 
 span.fr-emoticon > img[alt=JKanStyle]{
     width: 80px;
 }
+
+/* emoticon2 */
+span.fr-emoticon[data-param1=OptimizePrime] > img,
+span.fr-emoticon > img[alt=OptimizePrime] {
+    content: url(https://ringether.github.io/TGD/img/rohboksoon/emoticon2.png);
+}
+
+span.fr-emoticon > img[alt=OptimizePrime]{
+    width: 80px;
+}
+
+/* emoticon3 */
+span.fr-emoticon[data-param1=StoneLightning] > img,
+span.fr-emoticon > img[alt=StoneLightning] {
+    content: url(https://ringether.github.io/TGD/img/rohboksoon/emoticon3.png);
+}
+
+span.fr-emoticon > img[alt=StoneLightning]{
+    width: 80px;
+}
+
+/* emoticon4 */
+span.fr-emoticon[data-param1=TheRinger] > img,
+span.fr-emoticon > img[alt=TheRinger] {
+    content: url(https://ringether.github.io/TGD/img/rohboksoon/emoticon4.png);
+}
+
+span.fr-emoticon > img[alt=TheRinger]{
+    width: 80px;
+}
+
 /* #endregion */
