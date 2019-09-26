@@ -628,4 +628,14 @@ span.fr-emoticon > img[alt=TheRinger]{
     width: 80px;
 }
 
+/* emoticon5 */
+span.fr-emoticon[data-param1=RedCoat] > img,
+span.fr-emoticon > img[alt=RedCoat] {
+    content: url(https://ringether.github.io/TGD/img/rohboksoon/emoticon5.png);
+}
+
+span.fr-emoticon > img[alt=RedCoat]{
+    width: 80px;
+}
+
 /* #endregion */
