@@ -188,11 +188,11 @@ div.frame {
 }
 
 #article-list #article-list-category>a:nth-child(n) {
-    border-top: 3px solid #B2889E;
+    border-top: 3px solid #69B6C4;
 }
 #article-list #article-list-category>a:nth-child(n):hover, 
 #article-list #article-list-category>a.active:nth-child(n) {
-    background: #B2889E;
+    background: #69B6C4;
     color: #FFFFFF!important;
 }
 
