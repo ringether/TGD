@@ -335,7 +335,7 @@ div.frame {
 #board-info #viewers-area .fa-user{
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 #board-info #viewers-area .fa-user:before {
     content: "";
@@ -349,7 +349,7 @@ div.frame {
 }
 
 #board-info #viewers-area .fa-user:after{
-    content: "넹구단";
+    content: "포도당";
     font-family: 'KOMACON', sans-serif;
     margin-left: 5px;
     transition: all 0.5s;
@@ -361,7 +361,7 @@ div.frame {
 }
 
 #board-info #viewers-area .fa-user:hover:after {
-    content: "마늘단";
+    content: "C6H12O6";
     margin-left: 5px;
 }
 
