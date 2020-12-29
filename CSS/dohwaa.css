@@ -1,11 +1,11 @@
 /*
 ** Github : http://github.com/ringether/TGD/
-** Copyright(c)2018 All rights reserved by dohwaa
+** Copyright(c)2018-2020 All rights reserved by dohwaa
 **
 ** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
 **
-** 도게더는 트게더의 CSS 운영정책을 존중합니다.
-** 혹여나, 위반되는 항목이 있는 경우 댕게더에 알려주세요.
+** 돠게더는 트게더의 CSS 운영정책을 존중합니다.
+** 혹여나, 위반되는 항목이 있는 경우 돠게더에 알려주세요.
 ** 진보라 #97617D
 ** 연보라 #B2889E
 ** 노랑 #FFF7D4
@@ -340,7 +340,7 @@ div.frame {
 }
 
 #board-info #viewers-area .fa-user:after{
-    content: "넹구단";
+    content: "포도당";
     font-family: 'KOMACON', sans-serif;
     margin-left: 5px;
     transition: all 0.5s;
@@ -352,7 +352,7 @@ div.frame {
 }
 
 #board-info #viewers-area .fa-user:hover:after {
-    content: "마늘단";
+    content: "C6H12O6";
     margin-left: 5px;
 }
 
