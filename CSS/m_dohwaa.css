@@ -114,6 +114,15 @@ img[title="Moderator"] {
     color: #FFFFFF;
 }
 
+#article-list #article-list-category>a:nth-child(n) {
+    border-top: 3px solid #B2889E;
+}
+#article-list #article-list-category>a:nth-child(n):hover, 
+#article-list #article-list-category>a.active:nth-child(n) {
+    background: #B2889E;
+    color: #FFFFFF!important;
+}
+
 #article-list #article-list-category>a:nth-child(2) {
     border-top: 3px solid #ffaf43;
 }
