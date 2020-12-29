@@ -134,7 +134,7 @@ div.frame {
     border-radius: 50%;
 }
 
-#board-info h1, #board-info #board-info-bottom {
+#board-info h1 {
     margin-left: 60px;
     padding: 0;
 }
@@ -342,8 +342,8 @@ div.frame {
     display: block;
     background: url(https://static-cdn.jtvnw.net/emoticons/v1/300113685/3.0) no-repeat center;
     background-size: cover;
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
     font-family: 'KOMACON', sans-serif;
     transition: all 0.5s;
 }
@@ -351,7 +351,6 @@ div.frame {
 #board-info #viewers-area .fa-user:after{
     content: "포도당";
     font-family: 'KOMACON', sans-serif;
-    margin-left: 5px;
     transition: all 0.5s;
 }
 
@@ -362,7 +361,6 @@ div.frame {
 
 #board-info #viewers-area .fa-user:hover:after {
     content: "C6H12O6";
-    margin-left: 5px;
 }
 
 #board-info #viewers-area {
