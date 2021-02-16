@@ -1,0 +1,641 @@
+/*
+** Github : http://github.com/ringether/TGD/
+** Copyright(c)2021 All rights reserved by dohwaa
+**
+** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
+**
+** 타게더는 트게더의 CSS 운영정책을 존중합니다.
+** 혹여나, 위반되는 항목이 있는 경우 타게더에 알려주세요.
+*/
+
+/* #region 공통 */
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: auto;
+    background: linear-gradient(to bottom, #fffcff, #fff8ff);
+}
+
+body {
+    letter-spacing: -0.05em !important;
+    background: transparent;
+    font-family: 'S-CoreDream-3Light', sans-serif;
+}
+
+::selection {
+    background: #ffe56a;
+    color: #000000;
+}
+
+::-moz-selection {
+    background: #ffe56a;
+    color: #000000;
+}
+
+img[title="Moderator"] {
+    display: none;
+}
+
+.fa-heart:before {
+    content: "❤️";
+    animation: pulse 1.5s infinite;
+    border-radius: 50%;
+    padding: 1px 0.6px 1px 0;
+}
+
+#article-list>.article-list-row .fa-star {
+    animation: rotate 1.5s infinite;
+}
+
+.btn-primary {
+    border-radius: 15px !important;
+    background: #b290b7 !important;
+    transition-duration: .5s;
+    border: 0!important;
+    padding: 7px 12px;
+}
+
+.btn-primary:hover {
+    background: #d0b2d4 !important;
+}
+
+/* fa색상 */
+
+header #header-bar .fa {
+    color: #ee7a7b;
+}
+
+/* #region 마우스 커서 */
+
+/* 마우스 커서 포인터 */
+
+html, body, .fr-popup.emoticons, .fr-top, select.form-control, input[type=checkbox], input[type=radio], .opt {
+    cursor: url(https://upload.tgd.kr/20190919/b01c834b3d2271d0279a6058b26aaa10.png) 0 0, auto !important;
+}
+
+/* 마우스 커서 링크 */
+
+#right-search-form>#right-search-btn, #board-info #board-info-bottom #addFavoriteBtn, #article-list #article-option-area>#article-option-area-toggle-btn, #article-list>.article-list-row>.item>.list-title>.list-writer>span, .reply>.reply-header>.reply-writer.logged, .reply-menu, .btn, .fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn, .fr-view img, .pull-left, a {
+    cursor: url(https://upload.tgd.kr/20190919/bf15d55d43e44ad22685e243a3bf1860.png) 0 0, auto !important;
+}
+
+/* 마우스 커서 텍스트 */
+
+span#viewers, #article-list #boardSearchForm .form-control, .fr-view, .fr-box.fr-basic.fr-element, input[type='text'] {
+    cursor: url(https://upload.tgd.kr/20190919/bf15d55d43e44ad22685e243a3bf1860.png) 0 0, auto !important;
+}
+
+a {
+    color: #62406d;
+}
+
+.fr-toolbar {
+    border-top-color: #b290b7!important;
+}
+
+/* #endregion */
+
+/* #endregion */
+
+/* #region 상단 */
+
+/* 상단바 & 좌측메뉴 쉐도우 */
+
+header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* 로고밑 NAV bar */
+
+header #header-bar>.row {
+    border-top: 4px solid #62406d;
+    border-right: none;
+    border-bottom: none;
+}
+
+/* 로고  */
+
+header .row>div:nth-child(1)>a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-image: url(https://ringether.github.io/TGD/img/tachio/logo.png);
+    background-repeat: no-repeat;
+}
+
+header .row>div:nth-child(1)>a>img {
+    display: none;
+}
+
+/* 검색폼 보더 */
+
+header #right-search-form>input[type='text'] {
+    border: 3px solid #62406d;
+}
+
+.badge {
+    margin: 2px;
+}
+
+/* 헤더 검색 버튼 */
+
+header #right-search-form>#right-search-btn {
+    color: #62406d;
+}
+
+/* 헤더 [광고]배경색 */
+
+header #header-bar #header-top-notice strong.notice-badge {
+    background: #519D9E;
+}
+
+/* #endregion */
+
+/* #region 좌측 메뉴 */
+
+#main .menu-wrapper {
+    border: 0;
+}
+
+#main .menu-wrapper>a>em, #main .menu-wrapper>a>i.fa.fa-square {
+    color: #b0dde3;
+}
+
+#main .menu-wrapper>.header {
+    background: #62406d;
+    border-radius: 10px 10px 0 0;
+}
+
+#main .menu-wrapper a:nth-last-child(1) {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    color: white;
+}
+
+header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
+    border-right: none;
+    border-bottom: none;
+}
+
+#main .menu-wrapper {
+    border: none;
+}
+
+/* 좌측메뉴 아이콘 색상 */
+
+#main .menu-wrapper>a>em {
+    color: #b0dde3;
+}
+
+/* 좌측메뉴 메뉴사이의 공간 색상 */
+
+#main .menu-wrapper .spacer {
+    background: #62406d;
+    height: 0.15em;
+}
+
+/* #endregion */
+
+/* #region 프로필 */
+
+/* 스트리머 게시판 상단 정보 글씨색상 */
+
+#board-info {
+    display: flex;
+    height: auto!important;
+    padding: 1em;
+    border-radius: 10px;
+    background: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#board-info #board-info-bottom {
+    flex: auto;
+    text-align: right;
+}
+
+#board-info #board-info-bottom a {
+    border: 0;
+    color: #62406d;
+}
+
+#board-info h1 {
+    display: flex;
+    margin: 0.5em 0;
+    border-bottom: 0;
+    align-items: center;
+}
+
+#board-info #board-info-profile-img {
+    float: left !important;
+    width: 110px;
+    height: 110px;
+    border: 3px solid #62406d;
+    border-radius: 50%;
+}
+
+#board-info h1, #board-info #board-info-bottom {
+    padding: 0;
+}
+
+#board-info #score-area {
+    margin-left: 0.5em;
+}
+
+/* 뷰어 */
+
+#board-info #viewers-area {
+    display: flex;
+    margin-left: 0.5em;
+    align-items: center;
+    justify-content: center;
+    color: #62406d;
+}
+
+#board-info #viewers-area .fa-user {
+    display: flex;
+    align-items: center;
+}
+
+#board-info #viewers-area .fa-user:before {
+    content: "";
+    display: block;
+    background: url(https://static-cdn.jtvnw.net/channel-points-icons/445841701/0cd34422-f54a-4f28-96a9-a53bb9dbbb09/icon-4.png) no-repeat center;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    font-family: 'S-CoreDream-3Light', sans-serif;
+    transition: all 0.5s;
+}
+
+#board-info #viewers-area .fa-user:after {
+    content: "연어";
+    font-family: 'S-CoreDream-3Light', sans-serif;
+    margin-left: 5px;
+    transition: all 0.5s;
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "마리 냠!";
+    cursor: text;
+    font-family: 'S-CoreDream-3Light', sans-serif;
+    transition: all 0.5s;
+}
+
+/* #endregion */
+
+/* #region 카테고리 */
+
+#article-list #article-list-category {
+    border: none;
+    background: #FFFFFF;
+    border-top: 2px solid #519D9E;
+    margin: 5px;
+}
+
+#article-list #article-list-category>a {
+    background: #FFFFFF;
+    transition-duration: .7s;
+}
+
+#article-list #article-list-category>a.nav-link.active, #article-list #article-list-category>a.nav-link:hover {
+    background: #519D9E;
+    color: #FFFFFF!important;
+}
+
+#article-list #article-list-category>a.active>.fa-home, #article-list #article-list-category>a.active:hover>.fa-home {
+    color: #FFFFFF;
+}
+
+/* #endregion */
+
+/* #region 리스트 */
+
+#article-list>.article-list-row.notice {
+    border: 2px solid #b290b7;
+    border-radius: 20px;
+    margin-top: 5px;
+    background: #fff8ff;
+    color: #000000;
+    font-weight: bold;
+}
+
+#article-list>.article-list-row.notice>.item>div {
+    border: 0!important;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #121545;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+    color: #519D9E;
+}
+
+/* #endregion */
+
+/* #region 게시글 */
+
+#article-info {
+    margin-top: 15px;
+    background: #FFF;
+}
+
+#article-content-wrapper {
+    background: #FFF;
+}
+
+#article-reply-area {
+    background: #FFF;
+}
+
+#article-content-wrapper>.header {
+    background: #fff8ff;
+    border-top: 2px solid #b290b7;
+}
+
+#article-reply-area>.header h5 {
+    color: #b290b7;
+}
+
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
+    border: 1px solid #b290b7;
+    border-radius: 10px;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
+    border-bottom: 1px solid #b290b7;
+    border-radius: 10px 10px 0 0;
+    background: #fff8ff;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged, #article-reply-area #reply-real-area .reply>.reply-header>.reply-menu>a, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu>a {
+    color: #b290b7;
+}
+
+#comment-write-form-area {
+    padding: 0 1em 1em;
+}
+
+#article-neighbor-list {
+    background: #FFF;
+}
+
+.vote-btn[data-type="up"] {
+    border: none;
+    font-size: 0;
+    outline: 0 !important;
+}
+
+.vote-btn[data-type="up"]:hover {
+    background: none !important;
+}
+
+.vote-btn[data-type="up"]::before {
+    display: inline-block;
+    background: white;
+    border: solid #519d9e 1px;
+    color: #519d9e;
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    font-size: 26pt;
+    content: "\f164";
+    padding-top: 17px;
+    padding-left: 2px;
+    font: normal 22px/1 FontAwesome;
+    -moz-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    -ms-transition: color .2s ease;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+
+.vote-btn[data-type="up"]:hover::before {
+    background: #519d9e;
+    color: white;
+}
+
+.vote-btn[data-type="up"]:focus::before {
+    color: #519d9e;
+}
+
+.vote-btn[data-type="up"]:focus:hover::before {
+    color: white;
+}
+
+.vote-btn[data-type="up"] span {
+    float: left;
+    padding-top: 14px;
+    padding-left: 15px;
+    font-size: 22px;
+    color: #519d9e;
+}
+
+.vote-btn[data-type="down"] {
+    border: none;
+    font-size: 0;
+    outline: 0 !important;
+}
+
+.vote-btn[data-type="down"]:hover {
+    background: none !important;
+}
+
+.vote-btn[data-type="down"]::before {
+    display: inline-block;
+    background: white;
+    border: solid #ff6264 1px;
+    color: #ff6264;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    font-size: 26pt;
+    content: "\f165";
+    padding-top: 17px;
+    padding-left: 2px;
+    font: normal 22px/1 FontAwesome;
+    -moz-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    -ms-transition: color .2s ease;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+
+.vote-btn[data-type="down"]:hover::before {
+    background: #ff6264;
+    color: white;
+}
+
+.vote-btn[data-type="down"]:focus::before {
+    color: #ff6264;
+}
+
+.vote-btn[data-type="down"]:focus:hover::before {
+    color: white;
+}
+
+.vote-btn[data-type="down"] span {
+    float: left;
+    padding-top: 14px;
+    padding-left: 15px;
+    font-size: 22px;
+    color: #ff6264;
+}
+
+/* #endregion */
+
+/* #region 페이징 */
+
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    border-radius: 4px 0 0 4px;
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-radius: 0 4px 4px 0;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover {
+    background-color: #b290b7;
+    border-color: #b290b7;
+}
+
+.pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #b290b7;
+    border-color: #d0b2d4;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover {
+    background-color: #d0b2d4;
+    border-color: #d0b2d4;
+    color: #ffffff;
+}
+
+.pagination>li>span:focus, .pagination>li>span:hover {
+    color: #b290b7;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: #b290b7;
+}
+
+/* #endregion */
+
+/* #region 애니메이션 */
+
+/*
+@keyframes cherryblossom {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-moz-keyframes cherryblossom {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-webkit-keyframes cherryblossom {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-ms-keyframes cherryblossom {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+*/
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 141, 141, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0);
+    }
+}
+
+@-moz-keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 141, 141, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0);
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 141, 141, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0);
+    }
+}
+
+@-ms-keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 141, 141, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@-moz-keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@-ms-keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+/* #endregion */
