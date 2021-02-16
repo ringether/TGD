@@ -99,6 +99,19 @@ a {
     border-top-color: #b290b7!important;
 }
 
+.dropdown.open .dropdown-menu, .input-group-btn.open .dropdown-menu {
+    opacity: unset;
+    transform: unset;
+}
+
+.dropdown .dropdown-menu, .input-group-btn .dropdown-menu {
+    display: block !important;
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: top;
+    transition: all 0.35s ease-in-out;
+}
+
 /* #endregion */
 
 /* #endregion */
