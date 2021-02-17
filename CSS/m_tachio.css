@@ -28,6 +28,10 @@ body {
     font-family: 'S-CoreDream-3Light', sans-serif;
 }
 
+footer {
+    background: #ffffff!important;
+}
+
 ::selection {
     background: #ffe56a;
     color: #000000;
@@ -71,28 +75,6 @@ header #header-bar .fa {
     color: #ee7a7b;
 }
 
-/* #region 마우스 커서 */
-
-/* 마우스 커서 포인터 */
-
-html, body, .fr-popup.emoticons, .fr-top, select.form-control, input[type=checkbox], input[type=radio], .opt {
-    cursor: url(https://upload.tgd.kr/20190919/b01c834b3d2271d0279a6058b26aaa10.png) 0 0, auto !important;
-}
-
-/* 마우스 커서 링크 */
-
-#right-search-form>#right-search-btn, #board-info #board-info-bottom #addFavoriteBtn, #article-list #article-option-area>#article-option-area-toggle-btn, #article-list>.article-list-row>.item>.list-title>.list-writer>span, .reply>.reply-header>.reply-writer.logged, .reply-menu, .btn, .fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn, .fr-view img, .pull-left, a {
-    cursor: url(https://upload.tgd.kr/20190919/bf15d55d43e44ad22685e243a3bf1860.png) 0 0, auto !important;
-}
-
-/* 마우스 커서 텍스트 */
-
-span#viewers, #article-list #boardSearchForm .form-control, .fr-view, .fr-box.fr-basic.fr-element, input[type='text'] {
-    cursor: url(https://upload.tgd.kr/20190919/bf15d55d43e44ad22685e243a3bf1860.png) 0 0, auto !important;
-}
-
-/* #endregion */
-
 a {
     color: #62406d;
 }
@@ -116,194 +98,84 @@ a {
 
 /* #endregion */
 
-/* #region 상단 */
+/* #region 헤더 */
 
-/* 상단바 & 좌측메뉴 쉐도우 */
-
-header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
-    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+header {
+    border-bottom: 3px solid #62406d;
+    background: #fff8ff;
 }
 
-/* 로고밑 NAV bar */
-
-header #header-bar>.row {
-    border-top: 4px solid #62406d;
-    border-right: none;
-    border-bottom: none;
+header>#header-area>a>h1 {
+    width: 120px;
+    background: url(https://ringether.github.io/TGD/img/tachio/logo.png) no-repeat;
+    background-size: auto 32px;
 }
 
-/* 로고  */
-
-header .row>div:nth-child(1)>a {
-    display: block;
-    width: 200px;
-    height: 50px;
-    background-image: url(https://ringether.github.io/TGD/img/tachio/logo.png);
-    background-repeat: no-repeat;
-}
-
-header .row>div:nth-child(1)>a>img {
-    display: none;
-}
-
-/* 검색폼 보더 */
-
-header #right-search-form>input[type='text'] {
-    border: 3px solid #62406d;
-}
-
-.badge {
-    margin: 2px;
-}
-
-/* 헤더 검색 버튼 */
-
-header #right-search-form>#right-search-btn {
+header>#header-area>#header-bar-link, nav#nav>#nav-upper>#header-close-bar-link {
     color: #62406d;
 }
 
-/* 헤더 [광고]배경색 */
-
-header #header-bar #header-top-notice strong.notice-badge {
-    background: #519D9E;
+header>#header-area>#header-search-link {
+    color: #62406d;
 }
 
 /* #endregion */
 
 /* #region 좌측 메뉴 */
 
-#main .menu-wrapper {
-    border: 0;
+nav#nav {
+    display: block!important;
+    left: 0;
+    background: #fffcff;
+    transform: translateX(0);
+    transition-property: left, opacity;
+    transition-duration: 0.35s, 0.5s;
+    opacity: unset;
 }
 
-#main .menu-wrapper>a>em, #main .menu-wrapper>a>i.fa.fa-square {
-    color: #b0dde3;
+nav#nav.hide {
+    left: -300px;
+    opacity: 0;
 }
 
-#main .menu-wrapper>.header {
+nav#nav>.nav-header {
     background: #62406d;
-    border-radius: 10px 10px 0 0;
-}
-
-#main .menu-wrapper a:nth-last-child(1) {
-    border-radius: 0px 0px 10px 10px;
-}
-
-.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
-    color: white;
-}
-
-header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
-    border-right: none;
-    border-bottom: none;
-}
-
-#main .menu-wrapper {
-    border: none;
-}
-
-/* 좌측메뉴 아이콘 색상 */
-
-#main .menu-wrapper>a>em {
-    color: #b0dde3;
-}
-
-/* 좌측메뉴 메뉴사이의 공간 색상 */
-
-#main .menu-wrapper .spacer {
-    background: #62406d;
-    height: 0.15em;
 }
 
 /* #endregion */
 
-/* #region 프로필 */
-
-/* 스트리머 게시판 상단 정보 글씨색상 */
+/* #region 정보 */
 
 #board-info {
-    display: flex;
-    height: auto!important;
-    padding: 1em;
-    border-radius: 10px;
     background: #FFFFFF;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    ;
+    border-top: 3px solid #62406d;
 }
 
-#board-info #board-info-bottom {
-    flex: auto;
-    text-align: right;
-}
-
-#board-info #board-info-bottom a {
-    border: 0;
-    color: #62406d;
-}
-
-#board-info h1 {
-    display: flex;
-    margin: 0.5em 0;
-    border-bottom: 0;
-    align-items: center;
-}
-
-#board-info #board-info-profile-img {
-    float: left !important;
-    width: 110px;
-    height: 110px;
+#board-info>h1>#board-info-profile-img {
+    width: 60px;
+    height: 60px;
+    background-size: 80px;
     border: 3px solid #62406d;
     border-radius: 50%;
+    margin-right: 0.5em;
 }
 
-#board-info h1, #board-info #board-info-bottom {
-    padding: 0;
+#board-info>a.board-right-menu {
+    color: #62406d !important;
+    line-height: 50px;
 }
 
-#board-info #score-area {
-    margin-left: 0.5em;
+#board-info>.dropdown {
+    line-height: 50px;
 }
 
-/* 뷰어 */
-
-#board-info #viewers-area {
-    display: flex;
-    margin-left: 0.5em;
-    align-items: center;
-    justify-content: center;
-    color: #62406d;
+#board-info>.dropdown, #board-info>.dropdown>a {
+    color: #62406d !important;
 }
 
-#board-info #viewers-area .fa-user {
-    display: flex;
-    align-items: center;
-}
-
-#board-info #viewers-area .fa-user:before {
-    content: "";
-    display: block;
-    background: url(https://static-cdn.jtvnw.net/channel-points-icons/445841701/0cd34422-f54a-4f28-96a9-a53bb9dbbb09/icon-4.png) no-repeat center;
-    background-size: cover;
-    width: 16px;
-    height: 16px;
-    font-family: 'S-CoreDream-3Light', sans-serif;
-    transition: all 0.5s;
-}
-
-#board-info #viewers-area .fa-user:after {
-    content: "연어";
-    font-family: 'S-CoreDream-3Light', sans-serif;
-    margin-left: 5px;
-    transition: all 0.5s;
-}
-
-#board-info #viewers-area #viewers:after {
-    content: "마리 냠!";
-    cursor: text;
-    font-family: 'S-CoreDream-3Light', sans-serif;
-    transition: all 0.5s;
+#board-info #score-area, #board-info #viewers-area {
+    color: #b290b7 !important;
 }
 
 /* #endregion */
@@ -314,7 +186,6 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
     border: none;
     background: #FFFFFF;
     border-top: 2px solid #519D9E;
-    margin: 5px;
 }
 
 #article-list #article-list-category>a {
@@ -337,7 +208,7 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
 
 #article-list>.article-list-row.notice {
     border: 2px solid #b290b7;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: 5px;
     background: #fff8ff;
     color: #000000;
@@ -542,113 +413,6 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
 
 .pagination>li>a, .pagination>li>span {
     color: #b290b7;
-}
-
-/* #endregion */
-
-/* #region 애니메이션 */
-
-/*
-@keyframes cherryblossom {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
-@-moz-keyframes cherryblossom {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
-@-webkit-keyframes cherryblossom {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
-@-ms-keyframes cherryblossom {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
-*/
-
-@keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0.4);
-    }
-    70% {
-        box-shadow: 0 0 0 10px rgba(255, 141, 141, 0);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0);
-    }
-}
-
-@-moz-keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0.4);
-    }
-    70% {
-        box-shadow: 0 0 0 10px rgba(255, 141, 141, 0);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0);
-    }
-}
-
-@-webkit-keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0.4);
-    }
-    70% {
-        box-shadow: 0 0 0 10px rgba(255, 141, 141, 0);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0);
-    }
-}
-
-@-ms-keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0.4);
-    }
-    70% {
-        box-shadow: 0 0 0 10px rgba(255, 141, 141, 0);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(255, 141, 141, 0);
-    }
-}
-
-@keyframes rotate {
-    from {
-        transform: rotate(360deg);
-    }
-    to {
-        transform: rotate(0deg);
-    }
-}
-
-@-moz-keyframes rotate {
-    from {
-        transform: rotate(360deg);
-    }
-    to {
-        transform: rotate(0deg);
-    }
-}
-
-@-webkit-keyframes rotate {
-    from {
-        transform: rotate(360deg);
-    }
-    to {
-        transform: rotate(0deg);
-    }
-}
-
-@-ms-keyframes rotate {
-    from {
-        transform: rotate(360deg);
-    }
-    to {
-        transform: rotate(0deg);
-    }
 }
 
 /* #endregion */
