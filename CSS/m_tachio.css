@@ -10,9 +10,18 @@
 
 /* #region 공통 */
 
+/* 
 @font-face {
     font-family: 'S-CoreDream-3Light';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+@font-face {
+    font-family: 'GongGothicLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -25,7 +34,7 @@ html {
 body {
     letter-spacing: -0.05em !important;
     background: transparent;
-    font-family: 'S-CoreDream-3Light', sans-serif;
+    font-family: 'GongGothicLight', sans-serif;
 }
 
 footer {

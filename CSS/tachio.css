@@ -10,9 +10,18 @@
 
 /* #region 공통 */
 
+/* 
 @font-face {
     font-family: 'S-CoreDream-3Light';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+@font-face {
+    font-family: 'GongGothicLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -25,7 +34,7 @@ html {
 body {
     letter-spacing: -0.05em !important;
     background: transparent;
-    font-family: 'S-CoreDream-3Light', sans-serif;
+    font-family: 'GongGothicLight', sans-serif;
 }
 
 ::selection {
@@ -107,11 +116,20 @@ a {
 }
 
 .dropdown .dropdown-menu, .input-group-btn .dropdown-menu {
+    border: 3px solid #62406d;
     display: block !important;
     opacity: 0;
     transform: scale(0);
     transform-origin: top;
-    transition: all 0.35s ease-in-out;
+    transition: all 0.4s cubic-bezier(0.18, 1.5, 0, 1)
+}
+
+.label-default {
+    background: #b290b7;
+}
+
+header #header-bar .fa {
+    color: #b290b7;
 }
 
 a#movetotop{
@@ -178,7 +196,7 @@ header #right-search-form>#right-search-btn {
 /* 헤더 [광고]배경색 */
 
 header #header-bar #header-top-notice strong.notice-badge {
-    background: #519D9E;
+    background: #62406d;
 }
 
 /* #endregion */
@@ -300,13 +318,13 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
     background-size: cover;
     width: 16px;
     height: 16px;
-    font-family: 'S-CoreDream-3Light', sans-serif;
+    font-family: 'GongGothicLight', sans-serif;
     transition: all 0.5s;
 }
 
 #board-info #viewers-area .fa-user:after {
     content: "연어";
-    font-family: 'S-CoreDream-3Light', sans-serif;
+    font-family: 'GongGothicLight', sans-serif;
     margin-left: 5px;
     transition: all 0.5s;
 }
@@ -314,7 +332,7 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
 #board-info #viewers-area #viewers:after {
     content: "마리 냠!";
     cursor: text;
-    font-family: 'S-CoreDream-3Light', sans-serif;
+    font-family: 'GongGothicLight', sans-serif;
     transition: all 0.5s;
 }
 
