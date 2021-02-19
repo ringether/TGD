@@ -164,8 +164,7 @@ nav#nav>.nav-header {
 
 #board-info {
     background: #FFFFFF;
-    ;
-    border-top: 3px solid #62406d;
+    border-top: 0;
 }
 
 #board-info>h1>#board-info-profile-img {
