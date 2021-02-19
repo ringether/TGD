@@ -114,6 +114,17 @@ a {
     transition: all 0.35s ease-in-out;
 }
 
+a#movetotop{
+    width: 250px;
+    height: 250px;
+    background: url(https://ringether.github.io/TGD/img/tachio/move_to_top.png);
+    background-size: contain;
+}
+
+a#movetotop>img {
+    display: none;
+}
+
 /* #endregion */
 
 /* #region 상단 */
