@@ -332,8 +332,8 @@ nav#nav>.nav-header {
 .vote-btn[data-type="up"]::before {
     display: inline-block;
     background: white;
-    border: solid #519d9e 1px;
-    color: #519d9e;
+    border: solid #62406d 1px;
+    color: #62406d;
     float: left;
     width: 60px;
     height: 60px;
@@ -351,12 +351,12 @@ nav#nav>.nav-header {
 }
 
 .vote-btn[data-type="up"]:hover::before {
-    background: #519d9e;
+    background: #62406d;
     color: white;
 }
 
 .vote-btn[data-type="up"]:focus::before {
-    color: #519d9e;
+    color: #62406d;
 }
 
 .vote-btn[data-type="up"]:focus:hover::before {
@@ -368,7 +368,7 @@ nav#nav>.nav-header {
     padding-top: 14px;
     padding-left: 15px;
     font-size: 22px;
-    color: #519d9e;
+    color: #62406d;
 }
 
 .vote-btn[data-type="down"] {
