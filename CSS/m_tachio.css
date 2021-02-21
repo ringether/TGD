@@ -118,6 +118,7 @@ header>#header-area>a>h1 {
     width: 120px;
     background: url(https://ringether.github.io/TGD/img/tachio/logo.png) no-repeat;
     background-size: auto 32px;
+    background-position: center;
 }
 
 header>#header-area>#header-bar-link, nav#nav>#nav-upper>#header-close-bar-link {
