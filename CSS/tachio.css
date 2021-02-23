@@ -236,7 +236,7 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
 /* 좌측메뉴 아이콘 색상 */
 
 #main .menu-wrapper>a>em {
-    color: #b0dde3;
+    color: #62406d;
 }
 
 /* 좌측메뉴 메뉴사이의 공간 색상 */
@@ -287,12 +287,6 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
     border: 3px solid #62406d;
     border-radius: 50%;
 }
-
-/* #region 임시 */
-#board-info #board-info-profile-img[alt] {
-    content: url(https://static-cdn.jtvnw.net/jtv_user_pictures/144be039-6e87-4b66-b97b-8689a2b33f83-profile_image-150x150.png);
-}
-/* #endregion */
 
 #board-info h1, #board-info #board-info-bottom {
     padding: 0;

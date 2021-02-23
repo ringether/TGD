@@ -186,12 +186,6 @@ nav#nav>.nav-header {
     margin-right: 0.5em;
 }
 
-/* #region 임시 */
-#board-info #board-info-profile-img[alt] {
-    content: url(https://static-cdn.jtvnw.net/jtv_user_pictures/144be039-6e87-4b66-b97b-8689a2b33f83-profile_image-150x150.png);
-}
-/* #endregion */
-
 #board-info>a.board-right-menu {
     color: #62406d !important;
     line-height: 50px;
