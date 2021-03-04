@@ -262,6 +262,7 @@ nav#nav>.nav-header {
 }
 
 #article-list>.article-list-row:hover>.item>.list-header.v0>span{
+    transition-delay: .7s;
     background: transparent!important;
     color: transparent!important;
 }

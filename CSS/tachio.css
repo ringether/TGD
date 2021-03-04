@@ -390,6 +390,7 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
 }
 
 #article-list>.article-list-row:hover>.item>.list-header.v0>span{
+    transition-delay: .7s;
     background: transparent!important;
     color: transparent!important;
 }
