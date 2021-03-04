@@ -389,7 +389,7 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
     background-color: #121545;
 }
 
-#article-list>.article-list-row:hover>.item>.list-header>span{
+#article-list>.article-list-row:hover>.item>.list-header.v0>span{
     background: transparent!important;
     color: transparent!important;
 }
