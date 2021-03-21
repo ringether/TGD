@@ -144,6 +144,16 @@ a#movetotop>img {
 
 /* 상단바 & 좌측메뉴 쉐도우 */
 
+header:befroe{
+    content: "";
+    display: none;
+    background: url(https://ringether.github.io/TGD/img/tachio/hbd.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 150px;
+}
+
 header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
     box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
