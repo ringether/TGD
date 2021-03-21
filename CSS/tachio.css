@@ -144,7 +144,7 @@ a#movetotop>img {
 
 /* 상단바 & 좌측메뉴 쉐도우 */
 
-header:befroe{
+header:before{
     content: "";
     display: none;
     background: url(https://ringether.github.io/TGD/img/tachio/hbd.png) no-repeat;
