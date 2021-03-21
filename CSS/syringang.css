@@ -130,7 +130,7 @@ a#movetotop{
     opacity: 1;
     width: 250px;
     height: 250px;
-    background: url(https://ringether.github.io/TGD/img/tachio/move_to_top.png);
+    background: url(https://ringether.github.io/TGD/img/syringang/move_to_top.png);
     background-size: contain;
 }
 
@@ -147,7 +147,7 @@ a#movetotop>img {
 header:before{
     content: "";
     display: block;
-    background: url(https://ringether.github.io/TGD/img/tachio/hbd.png) no-repeat;
+    background: url(https://ringether.github.io/TGD/img/syringang/hbd.png) no-repeat;
     background-position: center;
     background-size: contain;
     width: 100%;
@@ -173,7 +173,7 @@ header .row>div:nth-child(1)>a {
     display: block;
     width: 200px;
     height: 50px;
-    background-image: url(https://ringether.github.io/TGD/img/tachio/logo.png);
+    background-image: url(https://ringether.github.io/TGD/img/syringang/logo.png);
     background-repeat: no-repeat;
 }
 
