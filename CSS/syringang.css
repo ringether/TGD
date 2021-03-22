@@ -175,6 +175,7 @@ header .row>div:nth-child(1)>a {
     height: 50px;
     background-image: url(https://ringether.github.io/TGD/img/syringang/logo.png);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 header .row>div:nth-child(1)>a>img {
