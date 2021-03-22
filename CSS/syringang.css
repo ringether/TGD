@@ -146,7 +146,7 @@ a#movetotop>img {
 
 header:before{
     content: "";
-    display: block;
+    display: none;
     background: url(https://ringether.github.io/TGD/img/syringang/hbd.png) no-repeat;
     background-position: center;
     background-size: contain;
